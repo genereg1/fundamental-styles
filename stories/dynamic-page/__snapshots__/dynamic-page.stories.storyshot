@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/Dynamic Page Layout Desktop mode 1`] = `
+exports[`Storyshots Layouts/Dynamic Page Desktop mode 1`] = `
 <section>
   
     
   <div
-    aria-label="Dynamic Page Layout Desktop Example"
+    aria-label="Dynamic Page Desktop Example"
     class="fd-dynamic-page"
     role="region"
   >
@@ -426,7 +426,7 @@ exports[`Storyshots Components/Dynamic Page Layout Desktop mode 1`] = `
 </section>
 `;
 
-exports[`Storyshots Components/Dynamic Page Layout Expandable 1`] = `
+exports[`Storyshots Layouts/Dynamic Page Expandable 1`] = `
 <section>
   
     
@@ -446,7 +446,7 @@ exports[`Storyshots Components/Dynamic Page Layout Expandable 1`] = `
       
     
   <div
-    aria-label="Dynamic Page Layout Expandable Example"
+    aria-label="Dynamic Page Expandable Example"
     class="fd-dynamic-page"
     role="region"
   >
@@ -721,7 +721,7 @@ exports[`Storyshots Components/Dynamic Page Layout Expandable 1`] = `
   
     
   <div
-    aria-label="Dynamic Page Layout Collapsed Example"
+    aria-label="Dynamic Page Collapsed Example"
     class="fd-dynamic-page"
     role="region"
   >
@@ -996,7 +996,7 @@ exports[`Storyshots Components/Dynamic Page Layout Expandable 1`] = `
 
     
   <div
-    aria-label="Dynamic Page Layout Pinnable Example"
+    aria-label="Dynamic Page Pinnable Example"
     class="fd-dynamic-page"
     role="region"
   >
@@ -1239,20 +1239,19 @@ exports[`Storyshots Components/Dynamic Page Layout Expandable 1`] = `
 </section>
 `;
 
-exports[`Storyshots Components/Dynamic Page Layout Mobile mode 1`] = `
+exports[`Storyshots Layouts/Dynamic Page Mobile mode 1`] = `
 <section>
   
 
   <div
-    style="display:flex; flex-direction: row; justify-content: space-evenly"
+    class="mobile-container"
   >
     
     
     <div
-      aria-label="Dynamic Page Layout Mobile Example"
+      aria-label="Dynamic Page Mobile Example"
       class="fd-dynamic-page"
       role="region"
-      style="width:30%"
     >
       
         
@@ -1315,7 +1314,7 @@ exports[`Storyshots Components/Dynamic Page Layout Mobile mode 1`] = `
           
                 
           <div
-            class="fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent"
+            class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent"
           >
             
                         
@@ -1353,7 +1352,7 @@ exports[`Storyshots Components/Dynamic Page Layout Mobile mode 1`] = `
                     
                     
           <div
-            class="fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent"
+            class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent"
           >
             
                         
@@ -1623,11 +1622,15 @@ exports[`Storyshots Components/Dynamic Page Layout Mobile mode 1`] = `
     
 
     
+    <br />
+    <br />
+    
+
+    
     <div
-      aria-label="Dynamic Page Layout Mobile Collapsed Example"
+      aria-label="Dynamic Page Mobile Collapsed Example"
       class="fd-dynamic-page"
       role="region"
-      style="width:30%"
     >
       
         
@@ -1690,7 +1693,7 @@ exports[`Storyshots Components/Dynamic Page Layout Mobile mode 1`] = `
           
                 
           <div
-            class="fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent"
+            class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent"
           >
             
                         
@@ -1720,7 +1723,7 @@ exports[`Storyshots Components/Dynamic Page Layout Mobile mode 1`] = `
           
                 
           <div
-            class="fd-dynamic-page__title"
+            class="fd-dynamic-page__title fd-dynamic-page__title--collapsed"
           >
              Balenciaga Tripple S Trainers 
           </div>
@@ -1728,7 +1731,7 @@ exports[`Storyshots Components/Dynamic Page Layout Mobile mode 1`] = `
                     
                     
           <div
-            class="fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent"
+            class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent"
           >
             
                         
@@ -2000,11 +2003,15 @@ exports[`Storyshots Components/Dynamic Page Layout Mobile mode 1`] = `
     
 
     
+    <br />
+    <br />
+    
+
+    
     <div
-      aria-label="Dynamic Page Layout Mobile Summary Line Example"
+      aria-label="Dynamic Page Mobile Summary Line Example"
       class="fd-dynamic-page"
       role="region"
-      style="width:30%"
     >
       
         
@@ -2015,14 +2022,14 @@ exports[`Storyshots Components/Dynamic Page Layout Mobile mode 1`] = `
         
             
         <div
-          class="fd-dynamic-page__summarized-title"
+          class="fd-dynamic-page__summarized-title fd-dynamic-page__summarized-title--collapsed"
         >
            Balenciaga Tripple S Trainers 
         </div>
         
             
         <div
-          class="fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent"
+          class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent"
         >
           
                     
@@ -2106,7 +2113,7 @@ exports[`Storyshots Components/Dynamic Page Layout Mobile mode 1`] = `
           
             
           <div
-            class="fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent"
+            class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent"
           >
             
                     
@@ -2136,14 +2143,14 @@ exports[`Storyshots Components/Dynamic Page Layout Mobile mode 1`] = `
           
                 
           <div
-            class="fd-dynamic-page__title"
+            class="fd-dynamic-page__title fd-dynamic-page__title--collapsed"
           >
              Balenciaga Tripple S Trainers 
           </div>
           
                     
           <div
-            class="fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent"
+            class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent"
           >
             
                         
@@ -2433,7 +2440,7 @@ exports[`Storyshots Components/Dynamic Page Layout Mobile mode 1`] = `
 </section>
 `;
 
-exports[`Storyshots Components/Dynamic Page Layout RTL 1`] = `
+exports[`Storyshots Layouts/Dynamic Page RTL 1`] = `
 <section>
   
     
@@ -2443,7 +2450,7 @@ exports[`Storyshots Components/Dynamic Page Layout RTL 1`] = `
     
         
     <div
-      aria-label="Dynamic Page Layout RTL Example"
+      aria-label="Dynamic Page RTL Example"
       class="fd-dynamic-page"
       role="region"
     >
@@ -2867,12 +2874,12 @@ exports[`Storyshots Components/Dynamic Page Layout RTL 1`] = `
 </section>
 `;
 
-exports[`Storyshots Components/Dynamic Page Layout Tablet mode 1`] = `
+exports[`Storyshots Layouts/Dynamic Page Tablet mode 1`] = `
 <section>
   
     
   <div
-    aria-label="Dynamic Page Layout Tablet Example"
+    aria-label="Dynamic Page Tablet Example"
     class="fd-dynamic-page"
     role="region"
   >
@@ -2994,11 +3001,13 @@ exports[`Storyshots Components/Dynamic Page Layout Tablet mode 1`] = `
       >
         
                 
-        <div
-          class="fd-dynamic-page__title fd-dynamic-page__title--m"
+        <a
+          class="fd-dynamic-page__title fd-dynamic-page__title--m fd-link"
+          href="#"
+          tabindex="0"
         >
-           Balenciaga Tripple S Trainers 
-        </div>
+          Balenciaga Tripple S Trainers 
+        </a>
         
                 
         <div

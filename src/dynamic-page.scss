@@ -115,9 +115,7 @@ $block: #{$fd-namespace}-dynamic-page;
     }
   }
 
-  &__title {
-    @include fd-reset();
-
+  &__title, .#{$fd-namespace}-link.#{$block}__title {
     color: var(--sapGroup_TitleTextColor);
     font-size: var(--sapFontHeader3Size);
     padding: 0.3125rem 0 0 0;
@@ -126,13 +124,6 @@ $block: #{$fd-namespace}-dynamic-page;
       @include fd-ellipsis();
     }
 
-    &--collapsed-s {
-      font-size: var(--sapFontHeader5Size);
-      padding: 0;
-      line-height: 2rem;
-
-      @include fd-ellipsis();
-    }
     // tablet spec
     &--m {
       padding: 0.6875rem 0 0 0;
@@ -162,6 +153,7 @@ $block: #{$fd-namespace}-dynamic-page;
     margin-left: auto;  // align toolbar to right in a flex layout
 
     @include fd-rtl() {
+      padding: 0 1rem 0 0;
       margin-left: 0;
       margin-right: auto;
     }
@@ -208,11 +200,16 @@ $block: #{$fd-namespace}-dynamic-page;
   }
 
   &__summarized-title {
+    @include fd-reset();
+
     color: var(--sapGroup_TitleTextColor);
     font-size: var(--sapFontHeader5Size);
     padding: 0;
     line-height: 2rem;
-    text-overflow: ellipsis;
+
+    &--collapsed {
+      @include fd-ellipsis();
+    }
   }
 
   &__header {

@@ -4,9 +4,10 @@ import '../../dist/breadcrumb.css';
 import '../../dist/tabs.css';
 import '../../dist/toolbar.css';
 import '../../dist/dynamic-page.css';
+import './custom.scss';
 
 export default {
-    title: 'Components/Dynamic Page Layout',
+    title: 'Layouts/Dynamic Page',
     parameters: {
         description: `The dynamic page is the foundation for all pages in SAP Fiori. It is a generic layout control designed to support various floorplans and use cases.
         As a result, the content of both the header and the page can vary.
@@ -19,47 +20,47 @@ export default {
         <br><br>
 
 ## Usage 
-**Use the dynamic page layout if:**
+**Use the dynamic page if:**
 
-- You want to build a freestyle application that uses the foundation layout components for SAP Fiori pages, such as the dynamic page header and the footer toolbar.
+- You want to build a freestyle application that uses the foundation components for SAP Fiori pages, such as the dynamic page header and the footer toolbar.
 
-**Do not use the dynamic page layout if:**
+**Do not use the dynamic page if:**
 
-- You are planning to use SAP Fiori elements, such as the list report, analytical list page, overview page, or object page. These floorplans already incorporate the dynamic page layout.
+- You are planning to use SAP Fiori elements, such as the list report, analytical list page, overview page, or object page. These floorplans already incorporate the dynamic page.
 - You want to implement an initial page or object page floorplan.
-- You only need to display a small amount of information. In this case, use a dialog instead. If you can’t avoid using the dynamic page layout, use letterboxing to mitigate the issue.
+- You only need to display a small amount of information. In this case, use a dialog instead. If you can’t avoid using the dynamic page, use letterboxing to mitigate the issue.
 
 
     
 ## Structure
-**Dynamic Page Layout consists of the following elements:**
+**Dynamic Page consists of the following elements:**
 
 - <code class="docs-code">fd-dynamic-page</code> Main element
   - <code class="docs-code">fd-dynamic-page\\_\\_title-area</code> The area holding title, KPI content, subtitle, and actions
     - <code class="docs-code">fd-dynamic-page\\_\\_breadcrumb-container</code> Breadcrumb container, can also hold global actions
       - <code class="docs-code">fd-dynamic-page\\_\\_breadcrumb</code> Breadcrumbs
     - <code class="docs-code">fd-dynamic-page\\_\\_title-container</code> The container for title, KPI content and actions
-      - <code class="docs-code">fd-dynamic-page\\_\\_title</code> Dynamic Page Layout title
+      - <code class="docs-code">fd-dynamic-page\\_\\_title</code> Dynamic Page title
       - <code class="docs-code">fd-dynamic-page\\_\\_title-content</code> The KPI content
       - <code class="docs-code">fd-dynamic-page\\_\\_toolbar</code> Toolbar container for actions
       - <code class="docs-code">fd-dynamic-page\\_\\_toolbar--actions</code> Global actions
-    - <code class="docs-code">fd-dynamic-page\\_\\_subtitle</code> Dynamic Page Layout subtitle
-    - <code class="docs-code">fd-dynamic-page\\_\\_header</code> Dynamic Page Layout header
+    - <code class="docs-code">fd-dynamic-page\\_\\_subtitle</code> Dynamic Page subtitle
+    - <code class="docs-code">fd-dynamic-page\\_\\_header</code> Dynamic Page header
     - <code class="docs-code">fd-dynamic-page\\_\\_header-visibility-container</code> The container for pin/collapse buttons
       - <code class="docs-code">fd-dynamic-page\\_\\_collapse-button</code> Collapse button
       - <code class="docs-code">fd-dynamic-page\\_\\_pin-button </code> Pin button
     - <code class="docs-code">fd-dynamic-page\\_\\_tabs</code> Tabs/Wizard can be optionally used as a header extension
-    - <code class="docs-code">fd-dynamic-page\\_\\_content</code> Dynamic Page Layout content
+    - <code class="docs-code">fd-dynamic-page\\_\\_content</code> Dynamic Page content
 
 Note: Footer is optional and used for finalizing page actions. It is usually displayed in edit mode and uses a Floating Footer Bar.
 There are no specific styles for footer when used with Dynamic Page.
 `,
-        tags: ['f3', 'a11y', 'theme', 'development']
+        tags: ['f3', 'theme', 'development']
     }
 };
 
 export const desktop = () => `
-    <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Layout Desktop Example">
+    <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Desktop Example">
         <div class="fd-dynamic-page__title-area fd-dynamic-page__title-area--xl" tabindex="0">
             <ul class="fd-dynamic-page__breadcrumb fd-breadcrumb">
                 <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Men</a></li>
@@ -175,14 +176,14 @@ desktop.storyName = 'Desktop mode';
 desktop.parameters = {
     docs: {
         iframeHeight: 150,
-        storyDescription: 'The dynamic page layout with Desktop specification(L). The same specification also applies to XL and XXL as well.' +
+        storyDescription: 'The dynamic page with Desktop specification(L). The same specification also applies to XL and XXL as well.' +
         'Please note the difference in the way tabs are used. Tabs must use `fd-dynamic-page__tabs` along with the size modifiers(--m, --l, --xl or --s) and' +
         '`--add-shadow` at the `<ul>` level, and to ensure the correct box-shadow styling, should also add `--overflow` modifier at the parent level.'
     }
 };
 
 export const tablet = () => `
-    <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Layout Tablet Example">
+    <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Tablet Example">
         <div class="fd-dynamic-page__title-area fd-dynamic-page__title-area--m" tabindex="0">
             <div class="fd-dynamic-page__breadcrumb-container">
                 <ul class="fd-dynamic-page__breadcrumb fd-breadcrumb">
@@ -203,7 +204,7 @@ export const tablet = () => `
                 </div>
             </div>
             <div class="fd-dynamic-page__title-container">
-                <div class="fd-dynamic-page__title fd-dynamic-page__title--m"> Balenciaga Tripple S Trainers </div>
+                <a href="#" class="fd-dynamic-page__title fd-dynamic-page__title--m fd-link" tabindex="0">Balenciaga Tripple S Trainers </a>
                 <div class="fd-dynamic-page__title-content"> Some RANDOM things </div>
                 <div class="fd-dynamic-page__toolbar fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                     <button class="fd-button fd-button--compact fd-button--positive">Accept</button>
@@ -300,15 +301,15 @@ tablet.storyName = 'Tablet mode';
 tablet.parameters = {
     docs: {
         iframeHeight: 150,
-        storyDescription: 'The dynamic page layout with Tablet specification(L). Use the `--m` modifier on `title-area`, `breadcrumb`, ' +
+        storyDescription: 'The dynamic page with Tablet specification(L). Use the `--m` modifier on `title-area`, `breadcrumb`, ' +
         '`header`, and `content` elements to get the Tablet spacings.' +
         ' The spec recommends navigation actions in a separate row above the global actions. The navigation actions are placed at the same level as the breadcrumb.'
     }
 };
 
 export const mobile = () => `
-<div style="display:flex; flex-direction: row; justify-content: space-evenly">
-    <div class="fd-dynamic-page" style="width:30%" role="region" aria-label="Dynamic Page Layout Mobile Example">
+<div class="mobile-container">
+    <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Mobile Example">
         <div class="fd-dynamic-page__title-area fd-dynamic-page__title-area--s" tabindex="0">
             <div class="fd-dynamic-page__breadcrumb-container">
                 <ul class="fd-dynamic-page__breadcrumb--s fd-breadcrumb">
@@ -316,7 +317,7 @@ export const mobile = () => `
                     <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Shoes</a></li>
                     <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Running Shoes</a></li>
                 </ul>
-                <div class="fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
+                <div class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                         <button class="fd-button fd-button--transparent" aria-label="Close">
                             <i class="sap-icon--decline"></i>
                         </button>
@@ -325,7 +326,7 @@ export const mobile = () => `
             <div class="fd-dynamic-page__title-container">
                 <div class="fd-dynamic-page__title"> Balenciaga Tripple S Trainers </div>
                     
-                    <div class="fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
+                    <div class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                         <button class="fd-button fd-button--transparent" aria-label="More Header Content">
                             <i class="sap-icon--overflow"></i>
                         </button>
@@ -398,7 +399,9 @@ export const mobile = () => `
         </div>
     </div>
 
-    <div class="fd-dynamic-page" style="width:30%" role="region" aria-label="Dynamic Page Layout Mobile Collapsed Example">
+    <br /><br />
+
+    <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Mobile Collapsed Example">
         <div class="fd-dynamic-page__title-area fd-dynamic-page__title-area--s fd-dynamic-page__title-area--collapsed" tabindex="0">
             <div class="fd-dynamic-page__breadcrumb-container">
                 <ul class="fd-dynamic-page__breadcrumb--s fd-breadcrumb">
@@ -406,16 +409,16 @@ export const mobile = () => `
                     <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Shoes</a></li>
                     <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Running Shoes</a></li>
                 </ul>
-                <div class="fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
+                <div class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                         <button class="fd-button fd-button--transparent" aria-label="Close">
                             <i class="sap-icon--decline"></i>
                         </button>
                 </div>
             </div>
             <div class="fd-dynamic-page__title-container">
-                <div class="fd-dynamic-page__title"> Balenciaga Tripple S Trainers </div>
+                <div class="fd-dynamic-page__title fd-dynamic-page__title--collapsed"> Balenciaga Tripple S Trainers </div>
                     
-                    <div class="fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
+                    <div class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                         <button class="fd-button fd-button--transparent" aria-label="More Header Content">
                             <i class="sap-icon--overflow"></i>
                         </button>
@@ -488,10 +491,12 @@ export const mobile = () => `
         </div>
     </div>
 
-    <div class="fd-dynamic-page" style="width:30%" role="region" aria-label="Dynamic Page Layout Mobile Summary Line Example">
+    <br /><br />
+
+    <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Mobile Summary Line Example">
         <div class="fd-dynamic-page__summarized-title-area fd-dynamic-page__summarized-title-area--s fd-dynamic-page__summarized-title-area--no-shadow" tabindex="0">
-            <div class="fd-dynamic-page__summarized-title"> Balenciaga Tripple S Trainers </div>
-            <div class="fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
+            <div class="fd-dynamic-page__summarized-title fd-dynamic-page__summarized-title--collapsed"> Balenciaga Tripple S Trainers </div>
+            <div class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                     <button class="fd-button fd-button--transparent" aria-label="Close">
                         <i class="sap-icon--slim-arrow-down"></i>
                     </button>
@@ -504,15 +509,15 @@ export const mobile = () => `
                 <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Shoes</a></li>
                 <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Running Shoes</a></li>
             </ul>
-            <div class="fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
+            <div class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                     <button class="fd-button fd-button--transparent" aria-label="Close">
                         <i class="sap-icon--decline"></i>
                     </button>
             </div>
             </div>
             <div class="fd-dynamic-page__title-container">
-                <div class="fd-dynamic-page__title"> Balenciaga Tripple S Trainers </div>
-                    <div class="fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
+                <div class="fd-dynamic-page__title fd-dynamic-page__title--collapsed"> Balenciaga Tripple S Trainers </div>
+                    <div class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                         <button class="fd-button fd-button--transparent" aria-label="More Header Content">
                             <i class="sap-icon--overflow"></i>
                         </button>
@@ -594,7 +599,7 @@ mobile.storyName = 'Mobile mode';
 mobile.parameters = {
     docs: {
         iframeHeight: 150,
-        storyDescription: 'The dynamic page layout with Mobile specification(S). Use the `--s` modifier on `title-area`, `breadcrumb` ' +
+        storyDescription: 'The dynamic page with Mobile specification(S). Use the `--s` modifier on `title-area`, `breadcrumb` ' +
         '`header`, and `content` elements to get the Mobile spacings. \n' +
         'This mode can additionally have a Summary Line instead of the expand/collapse header feature.  We recommend switching on this feature to help users focus on the page content.' +
         'Use the `summarized-title` element in the `summarized-title-area` container element with the `--s` modifier to show the summary line.'
@@ -606,7 +611,7 @@ export const expandable = () => `
     <h3>1:  Header with both collapse and pin buttons, expanded by default. </h3>
     <hr />
     <br /><br />    
-    <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Layout Expandable Example">
+    <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Expandable Example">
         <div class="fd-dynamic-page__title-area fd-dynamic-page__title-area--xl" tabindex="0">
             <ul class="fd-dynamic-page__breadcrumb fd-breadcrumb">
                 <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Men</a></li>
@@ -670,7 +675,7 @@ export const expandable = () => `
     <h3>2: Collapsed Header with both expand and pin buttons. </h3>
     <hr />
     <br /><br />
-    <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Layout Collapsed Example">
+    <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Collapsed Example">
         <div class="fd-dynamic-page__title-area fd-dynamic-page__title-area--xl fd-dynamic-page__title-area--collapsed" tabindex="0">
             <ul class="fd-dynamic-page__breadcrumb fd-breadcrumb">
                 <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Men</a></li>
@@ -734,7 +739,7 @@ export const expandable = () => `
     <hr />
     <br /><br />
 
-    <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Layout Pinnable Example">
+    <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Pinnable Example">
         <div class="fd-dynamic-page__title-area fd-dynamic-page__title-area--xl" tabindex="0">
             <ul class="fd-dynamic-page__breadcrumb fd-breadcrumb">
                 <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Men</a></li>
@@ -794,7 +799,7 @@ expandable.storyName = 'Expandable';
 expandable.parameters = {
     docs: {
         iframeHeight: 150,
-        storyDescription: 'The dynamic page layout header can be shown or hidden with the expand/collapse buttons.' +
+        storyDescription: 'The dynamic page header can be shown or hidden with the expand/collapse buttons.' +
         ' The header can be made sticky with the pin button. Provide the `collapsed` modifier to `title-area` and ' +
         '`title` elements for collapse-specific styling changes.'
     }
@@ -802,7 +807,7 @@ expandable.parameters = {
 
 export const rtl = () => `
     <div dir="rtl">
-        <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Layout RTL Example">
+        <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page RTL Example">
             <div class="fd-dynamic-page__title-area fd-dynamic-page__title-area--xl" tabindex="0">
                 <ul class="fd-dynamic-page__breadcrumb fd-breadcrumb">
                     <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Men</a></li>
@@ -919,6 +924,6 @@ rtl.storyName = 'RTL';
 rtl.parameters = {
     docs: {
         iframeHeight: 150,
-        storyDescription: 'The right-to-left Dynamic Page Layout reverses the direction of the content displayed.'
+        storyDescription: 'The right-to-left Dynamic Page reverses the direction of the content displayed.'
     }
 };
