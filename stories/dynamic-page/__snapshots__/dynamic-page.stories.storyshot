@@ -371,6 +371,7 @@ exports[`Storyshots Layouts/Dynamic Page Desktop 1`] = `
         
     <div
       class="fd-bar fd-bar--floating-footer"
+      style="position:relative"
     >
       
             
@@ -1574,6 +1575,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
         
       <div
         class="fd-bar fd-bar--floating-footer"
+        style="position:relative"
       >
         
             
@@ -1955,6 +1957,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
         
       <div
         class="fd-bar fd-bar--floating-footer"
+        style="position:relative"
       >
         
             
@@ -2383,6 +2386,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
         
       <div
         class="fd-bar fd-bar--floating-footer"
+        style="position:relative"
       >
         
             
@@ -2818,6 +2822,7 @@ exports[`Storyshots Layouts/Dynamic Page RTL 1`] = `
             
       <div
         class="fd-bar fd-bar--floating-footer"
+        style="position:relative"
       >
         
                 
@@ -3259,6 +3264,7 @@ exports[`Storyshots Layouts/Dynamic Page Tablet 1`] = `
         
     <div
       class="fd-bar fd-bar--floating-footer"
+      style="position:relative"
     >
       
             
