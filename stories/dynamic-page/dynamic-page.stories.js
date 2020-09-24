@@ -46,6 +46,28 @@ export default {
 
 Note: Footer is optional and used for finalizing page actions. It is usually displayed in edit mode and uses a floating footer bar.
 There are no specific styles for footer when used with dynamic page.
+
+## Modifiers
+| **Description** | <div style="margin-left: 2rem;"> **Modifier class** </div> |
+| :---- | :-------------- |
+| No shadow for pin/collapse when tabs are used | <code class="docs-code" style="margin-left: 2rem;">fd-dynamic-page\\_\\_header-visibility-container--no-shadow</code>
+||<code class="docs-code" style="margin-left: 2rem;">fd-dynamic-page\\_\\_summarized-title-area--no-shadow</code>        |
+| Add shadow to tabs when tabs are used | <code class="docs-code" style="margin-left: 2rem;">fd-dynamic-page\\_\\_tabs--add-shadow</code>       |
+| Collapsed styles when header is collapsed | <code class="docs-code" style="margin-left: 2rem;">fd-dynamic-page\\_\\_title-area--collapsed</code>      |
+||<code class="docs-code" style="margin-left: 2rem;">fd-dynamic-page\\_\\_title--collapsed</code>        |
+||<code class="docs-code" style="margin-left: 2rem;">fd-dynamic-page\\_\\_summarized-title--collapsed</code>        |
+| The pin/collapse button group | <code class="docs-code" style="margin-left: 2rem;">fd-dynamic-page\\_\\_header-visibility-container--button-group</code>      |
+| The left gradient of the button group | <code class="docs-code" style="margin-left: 2rem;">fd-dynamic-page\\_\\_header-visibility-container--left-gradient</code>      |
+| The right gradient of the button group | <code class="docs-code" style="margin-left: 2rem;">fd-dynamic-page\\_\\_header-visibility-container--right-gradient</code>      |
+## Background variants
+
+| **Description** | <span style="margin-left: 2rem;">**Modifier class**</span> |
+| :---- | :-------------- |
+| List background for content area|<code class="docs-code" style="margin-left: 2rem;">fd-dynamic-page\\_\\_content--list-bg</code>        |
+| Transparent background for title area | <code class="docs-code" style="margin-left: 2rem;">fd-dynamic-page\\_\\_title-area --transparent-bg</code> |
+| Transparent background for header area|<code class="docs-code" style="margin-left: 2rem;">fd-dynamic-page\\_\\_header--transparent-bg</code>        |
+| Transparent background for content area|<code class="docs-code" style="margin-left: 2rem;">fd-dynamic-page\\_\\_content--transparent-bg</code>        |
+
 `,
         tags: ['f3', 'theme', 'development']
     }
@@ -167,7 +189,6 @@ export const desktop = () => `
 desktop.storyName = 'Desktop';
 desktop.parameters = {
     docs: {
-        iframeHeight: 150,
         storyDescription: `The dynamic page displays on desktop screens with the L, XL, and XXL sizes. To optimize dynamic page for desktop, add these modifier classes to the following elements:
         
 | Element | Modifier class |
@@ -181,9 +202,9 @@ Note: The XL size is presented in this table, however the L and XXL size works a
 
 It is also possible to add **Tabs** to the header area, which helps divide the page content. To display tabs, add the \`fd-dynamic-page__tabs\` class along with any of these size modifiers:
 
-- \`--s\`
-- \`--m\`
-- \`--l\`
+- \`--sm\`
+- \`--md\`
+- \`--lg\`
 - \`--xl\`
 
 Also add the modifier classes \`--add-shadow\` to the unordered list, and \`--overflow\` at the parent level for the box-shadow styling.
@@ -193,7 +214,7 @@ Also add the modifier classes \`--add-shadow\` to the unordered list, and \`--ov
 
 export const tablet = () => `
     <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Tablet Example">
-        <div class="fd-dynamic-page__title-area fd-dynamic-page__title-area--m" tabindex="0">
+        <div class="fd-dynamic-page__title-area fd-dynamic-page__title-area--md" tabindex="0">
             <div class="fd-dynamic-page__breadcrumb-container">
                 <ul class="fd-dynamic-page__breadcrumb fd-breadcrumb">
                     <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Men</a></li>
@@ -213,7 +234,7 @@ export const tablet = () => `
                 </div>
             </div>
             <div class="fd-dynamic-page__title-container">
-                <a href="#" class="fd-dynamic-page__title fd-dynamic-page__title--m fd-link" tabindex="0">Balenciaga Tripple S Trainers </a>
+                <a href="#" class="fd-dynamic-page__title fd-dynamic-page__title--md fd-link" tabindex="0">Balenciaga Tripple S Trainers </a>
                 <div class="fd-dynamic-page__title-content"> Some RANDOM things </div>
                 <div class="fd-dynamic-page__toolbar fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                     <button class="fd-button fd-button--compact fd-button--positive">Accept</button>
@@ -222,7 +243,7 @@ export const tablet = () => `
             </div>
             <div class="fd-dynamic-page__subtitle"> Oversized multimaterial sneakers with quilted effect </div>
         </div>
-        <div class="fd-dynamic-page__header fd-dynamic-page__header--m" role="region"  aria-hidden="false" id="fddplhvc5" aria-label="Tablet header">
+        <div class="fd-dynamic-page__header fd-dynamic-page__header--md" role="region"  aria-hidden="false" id="fddplhvc5" aria-label="Tablet header">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam possimus corrupti architecto perspiciatis, 
             delectus necessitatibus incidunt numquam asperiores tenetur iure. 
             Cum consequuntur impedit repellendus esse, facere autem optio consequatur nobis?
@@ -245,7 +266,7 @@ export const tablet = () => `
             <div class="fd-dynamic-page__header-visibility-container--right-gradient"></div>
         </div>
         <div class="fd-dynamic-page__tabs--overflow">
-            <ul class="fd-tabs fd-tabs--l fd-dynamic-page__tabs fd-dynamic-page__tabs--m fd-dynamic-page__tabs--add-shadow" role="tablist">
+            <ul class="fd-tabs fd-tabs--l fd-dynamic-page__tabs fd-dynamic-page__tabs--md fd-dynamic-page__tabs--add-shadow" role="tablist">
                 <li role="listitem" class="fd-tabs__item">
                     <a class="fd-tabs__link" aria-controls="fuCwV551" href="#fuCwV551" role="tab">
                         <span class="fd-tabs__tag">
@@ -262,7 +283,7 @@ export const tablet = () => `
                 </li>
             </ul>
         </div>
-        <div class="fd-dynamic-page__content fd-dynamic-page__content--m">
+        <div class="fd-dynamic-page__content fd-dynamic-page__content--md">
             <div class="fd-tabs__panel" aria-expanded="false" id="fuCwV551" role="tabpanel">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum illo voluptatem, unde voluptate aliquam 
                 eum tempore aliquid dolorem cumque ullam perspiciatis omnis et asperiores dolores, consequatur, suscipit sint animi amet?
@@ -309,16 +330,15 @@ export const tablet = () => `
 tablet.storyName = 'Tablet';
 tablet.parameters = {
     docs: {
-        iframeHeight: 150,
         storyDescription: `The dynamic page displays on tablet screens with the M size. To optimize dynamic page for tablet, add these modifier classes to the following elements:
 
 | Element | Modifier class |
 | ----------------: | :------------ |
-| Title Area | \`fd-dynamic-page__title-area--m\` |
-| Title | \`fd-dynamic-page__title--m\` |
-| Header | \`fd-dynamic-page__header--m\` |
-| Tabs | \`fd-dynamic-page__tabs--m\` |
-| Content | \`fd-dynamic-page__content--m\` |
+| Title Area | \`fd-dynamic-page__title-area--md\` |
+| Title | \`fd-dynamic-page__title--md\` |
+| Header | \`fd-dynamic-page__header--md\` |
+| Tabs | \`fd-dynamic-page__tabs--md\` |
+| Content | \`fd-dynamic-page__content--md\` |
  
 It is recommended that the navigation actions are displayed in a separate row above global actions, and are placed at the same level as the breadcrumb component.`
     }
@@ -327,9 +347,9 @@ It is recommended that the navigation actions are displayed in a separate row ab
 export const mobile = () => `
 <div class="mobile-container">
     <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Mobile Example">
-        <div class="fd-dynamic-page__title-area fd-dynamic-page__title-area--s" tabindex="0">
+        <div class="fd-dynamic-page__title-area fd-dynamic-page__title-area--sm" tabindex="0">
             <div class="fd-dynamic-page__breadcrumb-container">
-                <ul class="fd-dynamic-page__breadcrumb--s fd-breadcrumb">
+                <ul class="fd-dynamic-page__breadcrumb--sm fd-breadcrumb">
                     <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Men</a></li>
                     <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Shoes</a></li>
                     <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Running Shoes</a></li>
@@ -354,7 +374,7 @@ export const mobile = () => `
             </div>
             <div class="fd-dynamic-page__subtitle"> Expanded header in mobile </div>
         </div>
-        <div class="fd-dynamic-page__header fd-dynamic-page__header--s" role="region" id="fddplhvc4" aria-label="Dynamic Page Mobile Header">
+        <div class="fd-dynamic-page__header fd-dynamic-page__header--sm" role="region" id="fddplhvc4" aria-label="Dynamic Page Mobile Header">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam possimus corrupti architecto perspiciatis, 
             delectus necessitatibus incidunt numquam asperiores tenetur iure. 
             Cum consequuntur impedit repellendus esse, facere autem optio consequatur nobis?
@@ -373,7 +393,7 @@ export const mobile = () => `
             <div class="fd-dynamic-page__header-visibility-container--right-gradient"></div>
         </div>
         <div class="fd-dynamic-page__tabs--overflow">
-            <ul class="fd-tabs fd-tabs--l fd-dynamic-page__tabs fd-dynamic-page__tabs--s fd-dynamic-page__tabs--add-shadow" role="tablist">
+            <ul class="fd-tabs fd-tabs--l fd-dynamic-page__tabs fd-dynamic-page__tabs--sm fd-dynamic-page__tabs--add-shadow" role="tablist">
                 <li role="listitem" class="fd-tabs__item">
                     <a class="fd-tabs__link" aria-controls="fuCwV552" href="#fuCwV552" role="tab">
                         <span class="fd-tabs__tag">
@@ -390,7 +410,7 @@ export const mobile = () => `
                 </li>
             </ul>  
         </div>     
-        <div class="fd-dynamic-page__content fd-dynamic-page__content--s">
+        <div class="fd-dynamic-page__content fd-dynamic-page__content--sm">
             <div class="fd-tabs__panel" aria-expanded="false" id="fuCwV552" role="tabpanel">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum illo voluptatem, unde voluptate aliquam 
                 eum tempore aliquid dolorem cumque ullam perspiciatis omnis et asperiores dolores, consequatur, suscipit sint animi amet?
@@ -419,9 +439,9 @@ export const mobile = () => `
     <br /><br />
 
     <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Mobile Collapsed Example">
-        <div class="fd-dynamic-page__title-area fd-dynamic-page__title-area--s fd-dynamic-page__title-area--collapsed" tabindex="0">
+        <div class="fd-dynamic-page__title-area fd-dynamic-page__title-area--sm fd-dynamic-page__title-area--collapsed" tabindex="0">
             <div class="fd-dynamic-page__breadcrumb-container">
-                <ul class="fd-dynamic-page__breadcrumb--s fd-breadcrumb">
+                <ul class="fd-dynamic-page__breadcrumb--sm fd-breadcrumb">
                     <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Men</a></li>
                     <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Shoes</a></li>
                     <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Running Shoes</a></li>
@@ -446,7 +466,7 @@ export const mobile = () => `
             </div>
             <div class="fd-dynamic-page__subtitle"> Collapsed header </div>
         </div>
-        <div class="fd-dynamic-page__header fd-dynamic-page__header--s" role="region" aria-hidden="true" id="fddplhvcm1"  aria-label="Dynamic Page Mobile Collapsed Header" >
+        <div class="fd-dynamic-page__header fd-dynamic-page__header--sm" role="region" aria-hidden="true" id="fddplhvcm1"  aria-label="Dynamic Page Mobile Collapsed Header" >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam possimus corrupti architecto perspiciatis, 
             delectus necessitatibus incidunt numquam asperiores tenetur iure. 
             Cum consequuntur impedit repellendus esse, facere autem optio consequatur nobis?
@@ -465,7 +485,7 @@ export const mobile = () => `
             <div class="fd-dynamic-page__header-visibility-container--right-gradient"></div>
         </div>
         <div class="fd-dynamic-page__tabs--overflow">
-            <ul class="fd-tabs fd-tabs--l fd-dynamic-page__tabs fd-dynamic-page__tabs--s fd-dynamic-page__tabs--add-shadow" role="tablist">
+            <ul class="fd-tabs fd-tabs--l fd-dynamic-page__tabs fd-dynamic-page__tabs--sm fd-dynamic-page__tabs--add-shadow" role="tablist">
                 <li role="listitem" class="fd-tabs__item">
                     <a class="fd-tabs__link" aria-controls="fuCwV553" href="#fuCwV553" role="tab">
                         <span class="fd-tabs__tag">
@@ -482,7 +502,7 @@ export const mobile = () => `
                 </li>
             </ul>   
         </div>    
-        <div class="fd-dynamic-page__content fd-dynamic-page__content--s">
+        <div class="fd-dynamic-page__content fd-dynamic-page__content--sm">
             <div class="fd-tabs__panel" aria-expanded="false" id="fuCwV553" role="tabpanel">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum illo voluptatem, unde voluptate aliquam 
                 eum tempore aliquid dolorem cumque ullam perspiciatis omnis et asperiores dolores, consequatur, suscipit sint animi amet?
@@ -511,7 +531,7 @@ export const mobile = () => `
     <br /><br />
 
     <div class="fd-dynamic-page" role="region" aria-label="Dynamic Page Mobile Summary Line Example">
-        <div class="fd-dynamic-page__summarized-title-area fd-dynamic-page__summarized-title-area--s fd-dynamic-page__summarized-title-area--no-shadow" tabindex="0">
+        <div class="fd-dynamic-page__summarized-title-area fd-dynamic-page__summarized-title-area--sm fd-dynamic-page__summarized-title-area--no-shadow" tabindex="0">
             <div class="fd-dynamic-page__summarized-title fd-dynamic-page__summarized-title--collapsed"> Balenciaga Tripple S Trainers </div>
             <div class="fd-dynamic-page__toolbar fd-dynamic-page__toolbar--actions fd-toolbar fd-toolbar--clear fd-toolbar--transparent">
                     <button class="fd-button fd-button--transparent" aria-label="Close">
@@ -519,9 +539,9 @@ export const mobile = () => `
                     </button>
             </div>
         </div>
-        <div class="fd-dynamic-page__title-area fd-dynamic-page__title-area--s fd-dynamic-page__title-area--collapsed" aria-hidden="true" tabindex="0">
+        <div class="fd-dynamic-page__title-area fd-dynamic-page__title-area--sm fd-dynamic-page__title-area--collapsed" aria-hidden="true" tabindex="0">
             <div class="fd-dynamic-page__breadcrumb-container">
-            <ul class="fd-dynamic-page__breadcrumb--s fd-breadcrumb">
+            <ul class="fd-dynamic-page__breadcrumb--sm fd-breadcrumb">
                 <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Men</a></li>
                 <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Shoes</a></li>
                 <li class="fd-breadcrumb__item"><a class="fd-breadcrumb__link" tabindex="0" href="#">Running Shoes</a></li>
@@ -545,7 +565,7 @@ export const mobile = () => `
             </div>
             <div class="fd-dynamic-page__subtitle"> Collapsed title area and header with summary line </div>
         </div>
-        <div class="fd-dynamic-page__header fd-dynamic-page__header--s" role="region" aria-hidden="true" id="fddplhvcm2"  aria-label="Dynamic Page Mobile Collapsed Header" >
+        <div class="fd-dynamic-page__header fd-dynamic-page__header--sm" role="region" aria-hidden="true" id="fddplhvcm2"  aria-label="Dynamic Page Mobile Collapsed Header" >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam possimus corrupti architecto perspiciatis, 
             delectus necessitatibus incidunt numquam asperiores tenetur iure. 
             Cum consequuntur impedit repellendus esse, facere autem optio consequatur nobis?
@@ -564,7 +584,7 @@ export const mobile = () => `
             <div class="fd-dynamic-page__header-visibility-container--right-gradient"></div>
         </div>
         <div class="fd-dynamic-page__tabs--overflow">
-            <ul class="fd-tabs fd-tabs--l fd-dynamic-page__tabs fd-dynamic-page__tabs--s fd-dynamic-page__tabs--add-shadow" role="tablist">
+            <ul class="fd-tabs fd-tabs--l fd-dynamic-page__tabs fd-dynamic-page__tabs--sm fd-dynamic-page__tabs--add-shadow" role="tablist">
                 <li role="listitem" class="fd-tabs__item">
                     <a class="fd-tabs__link" aria-controls="fuCwV554" href="#fuCwV554" role="tab">
                         <span class="fd-tabs__tag">
@@ -581,7 +601,7 @@ export const mobile = () => `
                 </li>
             </ul>  
         </div>     
-        <div class="fd-dynamic-page__content fd-dynamic-page__content--s">
+        <div class="fd-dynamic-page__content fd-dynamic-page__content--sm">
             <div class="fd-tabs__panel" aria-expanded="false" id="fuCwV554" role="tabpanel">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum illo voluptatem, unde voluptate aliquam 
                 eum tempore aliquid dolorem cumque ullam perspiciatis omnis et asperiores dolores, consequatur, suscipit sint animi amet?
@@ -615,17 +635,16 @@ export const mobile = () => `
 mobile.storyName = 'Mobile';
 mobile.parameters = {
     docs: {
-        iframeHeight: 150,
         storyDescription: `The dynamic page displays on mobile screens with the S size. To optimize dynamic page for mobile, add these modifier classes to the following elements:
         
 | Element | Modifier class |
 | ----------------: | :------------ |
-| Title Area | \`fd-dynamic-page__title-area--s\` |
-| Breadcrumb | \`fd-dynamic-page__breadcrumb--s\` |
-| Header | \`fd-dynamic-page__header--s\` |
-| Tabs | \`fd-dynamic-page__tabs--s\` |
-| Content | \`fd-dynamic-page__content--s\` |
-| Summary line (optional) | \`fd-dynamic-page__summarized-title-area--s\` |
+| Title Area | \`fd-dynamic-page__title-area--sm\` |
+| Breadcrumb | \`fd-dynamic-page__breadcrumb--sm\` |
+| Header | \`fd-dynamic-page__header--sm\` |
+| Tabs | \`fd-dynamic-page__tabs--sm\` |
+| Content | \`fd-dynamic-page__content--sm\` |
+| Summary line (optional) | \`fd-dynamic-page__summarized-title-area--sm\` |
  
 It is recommended to add a summary line insead of the expand/collapse header feature so users can better focus on the page content. To display a summary line, 
 add \`fd-dynamic-page__summarized-title\` in the \`fd-dynamic-page__summarized-title-area\` element.`
@@ -824,7 +843,6 @@ export const expandable = () => `
 expandable.storyName = 'Expandable';
 expandable.parameters = {
     docs: {
-        iframeHeight: 150,
         storyDescription: `As demonstrated earlier, the dynamic page header can be either displayed or hidden with the expand/collapse buttons. Users can select the pin button to keep the header displayed (enabling the sticky feature). 
         To collapse the dynamic page, add the \`--collapsed\` modifier class to the title area and title elements.`
     }
@@ -948,7 +966,6 @@ export const rtl = () => `
 rtl.storyName = 'RTL';
 rtl.parameters = {
     docs: {
-        iframeHeight: 150,
         storyDescription: 'The dynamic page is displayed from right to left on the screen so that it may be used internationally.'
     }
 };

@@ -1258,7 +1258,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
       
         
       <div
-        class="fd-dynamic-page__title-area fd-dynamic-page__title-area--s"
+        class="fd-dynamic-page__title-area fd-dynamic-page__title-area--sm"
         tabindex="0"
       >
         
@@ -1269,7 +1269,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
           
                 
           <ul
-            class="fd-dynamic-page__breadcrumb--s fd-breadcrumb"
+            class="fd-dynamic-page__breadcrumb--sm fd-breadcrumb"
           >
             
                     
@@ -1404,7 +1404,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
         
       <div
         aria-label="Dynamic Page Mobile Header"
-        class="fd-dynamic-page__header fd-dynamic-page__header--s"
+        class="fd-dynamic-page__header fd-dynamic-page__header--sm"
         id="fddplhvc4"
         role="region"
       >
@@ -1465,7 +1465,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
         
             
         <ul
-          class="fd-tabs fd-tabs--l fd-dynamic-page__tabs fd-dynamic-page__tabs--s fd-dynamic-page__tabs--add-shadow"
+          class="fd-tabs fd-tabs--l fd-dynamic-page__tabs fd-dynamic-page__tabs--sm fd-dynamic-page__tabs--add-shadow"
           role="tablist"
         >
           
@@ -1536,7 +1536,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
            
         
       <div
-        class="fd-dynamic-page__content fd-dynamic-page__content--s"
+        class="fd-dynamic-page__content fd-dynamic-page__content--sm"
       >
         
             
@@ -1639,7 +1639,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
       
         
       <div
-        class="fd-dynamic-page__title-area fd-dynamic-page__title-area--s fd-dynamic-page__title-area--collapsed"
+        class="fd-dynamic-page__title-area fd-dynamic-page__title-area--sm fd-dynamic-page__title-area--collapsed"
         tabindex="0"
       >
         
@@ -1650,7 +1650,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
           
                 
           <ul
-            class="fd-dynamic-page__breadcrumb--s fd-breadcrumb"
+            class="fd-dynamic-page__breadcrumb--sm fd-breadcrumb"
           >
             
                     
@@ -1786,7 +1786,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
       <div
         aria-hidden="true"
         aria-label="Dynamic Page Mobile Collapsed Header"
-        class="fd-dynamic-page__header fd-dynamic-page__header--s"
+        class="fd-dynamic-page__header fd-dynamic-page__header--sm"
         id="fddplhvcm1"
         role="region"
       >
@@ -1847,7 +1847,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
         
             
         <ul
-          class="fd-tabs fd-tabs--l fd-dynamic-page__tabs fd-dynamic-page__tabs--s fd-dynamic-page__tabs--add-shadow"
+          class="fd-tabs fd-tabs--l fd-dynamic-page__tabs fd-dynamic-page__tabs--sm fd-dynamic-page__tabs--add-shadow"
           role="tablist"
         >
           
@@ -1918,7 +1918,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
           
         
       <div
-        class="fd-dynamic-page__content fd-dynamic-page__content--s"
+        class="fd-dynamic-page__content fd-dynamic-page__content--sm"
       >
         
             
@@ -2021,7 +2021,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
       
         
       <div
-        class="fd-dynamic-page__summarized-title-area fd-dynamic-page__summarized-title-area--s fd-dynamic-page__summarized-title-area--no-shadow"
+        class="fd-dynamic-page__summarized-title-area fd-dynamic-page__summarized-title-area--sm fd-dynamic-page__summarized-title-area--no-shadow"
         tabindex="0"
       >
         
@@ -2060,7 +2060,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
         
       <div
         aria-hidden="true"
-        class="fd-dynamic-page__title-area fd-dynamic-page__title-area--s fd-dynamic-page__title-area--collapsed"
+        class="fd-dynamic-page__title-area fd-dynamic-page__title-area--sm fd-dynamic-page__title-area--collapsed"
         tabindex="0"
       >
         
@@ -2071,7 +2071,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
           
             
           <ul
-            class="fd-dynamic-page__breadcrumb--s fd-breadcrumb"
+            class="fd-dynamic-page__breadcrumb--sm fd-breadcrumb"
           >
             
                 
@@ -2206,7 +2206,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
       <div
         aria-hidden="true"
         aria-label="Dynamic Page Mobile Collapsed Header"
-        class="fd-dynamic-page__header fd-dynamic-page__header--s"
+        class="fd-dynamic-page__header fd-dynamic-page__header--sm"
         id="fddplhvcm2"
         role="region"
       >
@@ -2268,7 +2268,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
         
             
         <ul
-          class="fd-tabs fd-tabs--l fd-dynamic-page__tabs fd-dynamic-page__tabs--s fd-dynamic-page__tabs--add-shadow"
+          class="fd-tabs fd-tabs--l fd-dynamic-page__tabs fd-dynamic-page__tabs--sm fd-dynamic-page__tabs--add-shadow"
           role="tablist"
         >
           
@@ -2339,7 +2339,7 @@ exports[`Storyshots Layouts/Dynamic Page Mobile 1`] = `
            
         
       <div
-        class="fd-dynamic-page__content fd-dynamic-page__content--s"
+        class="fd-dynamic-page__content fd-dynamic-page__content--sm"
       >
         
             
@@ -2894,7 +2894,7 @@ exports[`Storyshots Layouts/Dynamic Page Tablet 1`] = `
     
         
     <div
-      class="fd-dynamic-page__title-area fd-dynamic-page__title-area--m"
+      class="fd-dynamic-page__title-area fd-dynamic-page__title-area--md"
       tabindex="0"
     >
       
@@ -3010,7 +3010,7 @@ exports[`Storyshots Layouts/Dynamic Page Tablet 1`] = `
         
                 
         <a
-          class="fd-dynamic-page__title fd-dynamic-page__title--m fd-link"
+          class="fd-dynamic-page__title fd-dynamic-page__title--md fd-link"
           href="#"
           tabindex="0"
         >
@@ -3063,7 +3063,7 @@ exports[`Storyshots Layouts/Dynamic Page Tablet 1`] = `
     <div
       aria-hidden="false"
       aria-label="Tablet header"
-      class="fd-dynamic-page__header fd-dynamic-page__header--m"
+      class="fd-dynamic-page__header fd-dynamic-page__header--md"
       id="fddplhvc5"
       role="region"
     >
@@ -3138,7 +3138,7 @@ exports[`Storyshots Layouts/Dynamic Page Tablet 1`] = `
       
             
       <ul
-        class="fd-tabs fd-tabs--l fd-dynamic-page__tabs fd-dynamic-page__tabs--m fd-dynamic-page__tabs--add-shadow"
+        class="fd-tabs fd-tabs--l fd-dynamic-page__tabs fd-dynamic-page__tabs--md fd-dynamic-page__tabs--add-shadow"
         role="tablist"
       >
         
@@ -3209,7 +3209,7 @@ exports[`Storyshots Layouts/Dynamic Page Tablet 1`] = `
     
         
     <div
-      class="fd-dynamic-page__content fd-dynamic-page__content--m"
+      class="fd-dynamic-page__content fd-dynamic-page__content--md"
     >
       
             
