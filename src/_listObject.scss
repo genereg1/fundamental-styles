@@ -128,8 +128,6 @@
       }
 
       &-unit {
-        font-family: $fd-list-object-number-font-family;
-        font-size: $fd-list-object-font-size;
         text-shadow: $fd-list-object-with-no-text-shadow;
       }
 
@@ -150,13 +148,11 @@
 
     .#{$block}__object-identifier {
       &-title {
-        @include fd-reset();
         @include fd-typography(var(--sapFontHeader4Size));
         @include line-clamp($lines: 2);
 
         line-height: 1.5;
         vertical-align: $fd-list-object-with-vertical-align-top;
-        font-weight: $fd-object-identifier-title-font-weight;
 
         @include fd-rtl() {
           float: $fd-list-object-align-right;
@@ -169,10 +165,7 @@
 
       text-align: $fd-list-object-align-right;
       margin-right: $fd-list-object-with-value-zero;
-
-      &-text {
-        text-shadow: $fd-list-object-with-no-text-shadow;
-      }
+      text-shadow: $fd-list-object-with-no-text-shadow;
 
       @include fd-rtl() {
         text-align: $fd-list-object-align-left;
@@ -185,8 +178,8 @@
     }
 
     .#{$block}__object-attribute {
-      @include fd-ellipsis();
       @include fd-reset();
+      @include fd-ellipsis();
 
       vertical-align: $fd-list-object-with-vertical-align-bottom;
 

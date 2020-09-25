@@ -1,253 +1,1992 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/List/Byline Borderless 1`] = `
-
-
-`;
-
-exports[`Storyshots Components/List/Byline Navigation 1`] = `
-
-
-`;
-
-exports[`Storyshots Components/List/Byline Navigation indicator 1`] = `
-
-
-`;
-
-exports[`Storyshots Components/List/Byline Rtl 1`] = `
-
-
-`;
-
-exports[`Storyshots Components/List/Byline Selection 1`] = `
+exports[`Storyshots Components/List/Object Borderless 1`] = `
 <section>
   
 
   <h4
-    id="O09lk9"
+    id="objectListItemBorderless"
   >
-    Standard Size
+    Borderless Object List Item
   </h4>
   
 
-  <ul
-    aria-labelledby="O09lk9"
-    class="fd-list fd-list--selection fd-list--byline"
-    role="listbox"
+  <div
+    style="max-width: 450px"
   >
     
-  
-    <li
-      class="fd-list__item is-selected"
-      role="option"
-      tabindex="0"
+
+    <ul
+      aria-labelledby="objectListItemBorderless"
+      class="fd-list fd-list--object fd-list--no-border fd-list--navigation"
+      role="listbox"
     >
       
-      
-      <div
-        class="fd-form-item fd-list__form-item"
-      >
-        
-          
-        <input
-          aria-labelledby="O09lk1"
-          checked=""
-          class="fd-checkbox"
-          id="Ai4ez6111Z"
-          type="checkbox"
-        />
-        
-          
-        <label
-          class="fd-checkbox__label"
-          for="Ai4ez6111Z"
-          tabindex="-1"
-        />
-        
-      
-      </div>
-      
-      
-      <span
-        class="sap-icon--activate fd-list__thumbnail"
-      />
-      
-      
-      <div
-        class="fd-list__content"
-      >
-        
-        
-        <span
-          class="fd-list__title"
-          id="O09lk1"
-        >
-          Title
-        </span>
-        
-        
-        <span
-          class="fd-list__byline"
-        >
-          Byline (description)
-        </span>
-        
-      
-      </div>
-      
   
-    </li>
-    
-  
-    <li
-      class="fd-list__item"
-      role="option"
-      tabindex="0"
-    >
-      
-    
-      <div
-        class="fd-form-item fd-list__form-item"
+      <li
+        class="fd-list__item fd-list__item--link"
+        role="option"
+        tabindex="0"
       >
         
-          
-        <input
-          aria-labelledby="O09lk2"
-          class="fd-checkbox"
-          id="Ai4ez6112X"
-          type="checkbox"
-        />
-        
-          
-        <label
-          class="fd-checkbox__label"
-          for="Ai4ez6112X"
-          tabindex="-1"
-        />
-        
-      
-      </div>
-      
     
-      <span
-        aria-label="Image label"
-        class="fd-image--s fd-list__thumbnail"
-        style="background-image: url('http://lorempixel.com/400/400/nature/5/');"
-      />
-      
-    
-      <div
-        class="fd-list__content"
-      >
-        
-        
-        <div
-          class="fd-list__title"
-          id="O09lk2"
-        >
-          List Item With Two-Column Byline
-        </div>
-        
-        
-        <div
-          class="fd-list__byline fd-list__byline--2-col"
+        <a
+          class="fd-list__link"
+          tabindex="0"
         >
           
-            
+    
           <div
-            class="fd-list__byline-left"
+            class="fd-list__content"
           >
-            First text item in Byline (Standard text item)
+            
+    
+            <div
+              class="fd-list__optional"
+            >
+              
+    
+              <span
+                class="fd-list__optional-text"
+              >
+                Optional inline text
+              </span>
+              
+    
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--top-row"
+            >
+              
+    
+              <span
+                class="fd-avatar fd-list__object-avatar fd-avatar--s"
+                style="background-image: url('http://lorempixel.com/400/400/nature/4/')"
+              />
+              
+    
+              <div
+                class="fd-list__object fd-list__object--top-left"
+              >
+                
+    
+                <div
+                  class="fd-object-identifier fd-list__object-identifier"
+                >
+                  
+      
+                  <p
+                    class="fd-object-identifier__title fd-list__object-identifier-title"
+                  >
+                    
+    Fitbit Versa Smart Watch, Black Fitbit Versa Smart Watch
+     
+                  </p>
+                  
+     
+                </div>
+              </div>
+              
+    
+              <div
+                class="fd-list__object fd-list__object--top-right"
+              >
+                
+    
+                <span
+                  class="fd-object-number fd-list__object-number fd-object-number--positive"
+                >
+                  
+    
+                  <span
+                    class="fd-object-number__text fd-list__object-number-text"
+                  >
+                    956.00
+                  </span>
+                  
+    
+                  <span
+                    class="fd-object-number__unit fd-list__object-number-unit"
+                  >
+                    Euro
+                  </span>
+                </span>
+                
+    
+              </div>
+              
+   
+            </div>
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-row"
+              >
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-right"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status fd-list__object-status fd-object-status--positive"
+                  >
+                    
+   
+                    <span
+                      class="fd-object-status__text fd-list__object-status-text"
+                    >
+                      First status
+                    </span>
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-row"
+              >
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-left"
+                >
+                  
+   
+                  <div
+                    class="fd-list__object-attribute"
+                  >
+                    
+   
+                    <span
+                      class="fd-list__object-attribute-text"
+                    >
+                      Second Attribute
+                    </span>
+                    
+   
+                  </div>
+                  
+   
+                </div>
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-right"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status fd-list__object-status fd-object-status--positive"
+                  >
+                    
+   
+                    <span
+                      class="fd-object-status__text fd-list__object-status-text"
+                    >
+                      Second status
+                    </span>
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-row"
+              >
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-left"
+                >
+                  
+   
+                  <div
+                    class="fd-list__object-attribute"
+                  >
+                    
+   
+                    <span
+                      class="fd-list__object-attribute-text"
+                    >
+                      Third Attribute
+                    </span>
+                    
+   
+                  </div>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+          </div>
+           
+   
+        </a>
+        
+  
+      </li>
+      
+  
+      <li
+        class="fd-list__item"
+        role="option"
+        tabindex="0"
+      >
+        
+    
+        <div
+          class="fd-list__content"
+        >
+          
+    
+          <div
+            class="fd-list__optional"
+          >
+            
+    
+            <span
+              class="fd-list__optional-text"
+            >
+              Optional inline text
+            </span>
+            
+    
           </div>
           
-            
+    
           <div
-            class="fd-list__byline-right"
+            class="fd-list__object fd-list__object--top-row"
           >
-            Second text item in Byline (Can be semantic (Status) or not)
+            
+    
+            <span
+              aria-label="John Doe"
+              class="fd-avatar fd-list__object-avatar fd-avatar--s fd-avatar--circle fd-avatar--thumbnail"
+              role="presentation"
+              style="background-image: url('http://lorempixel.com/400/400/nature/4/')"
+            />
+            
+    
+            <div
+              class="fd-list__object fd-list__object--top-left"
+            >
+              
+    
+              <div
+                class="fd-object-identifier fd-list__object-identifier"
+              >
+                
+      
+                <p
+                  class="fd-object-identifier__title fd-list__object-identifier-title"
+                >
+                  
+    Fitbit Versa Smart Watch, Black Fitbit Versa Smart Watch
+     
+                </p>
+                
+     
+              </div>
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--top-right"
+            >
+              
+    
+              <span
+                class="fd-object-number fd-list__object-number fd-object-number--positive"
+              >
+                
+    
+                <span
+                  class="fd-object-number__text fd-list__object-number-text"
+                >
+                  956.00
+                </span>
+                
+    
+                <span
+                  class="fd-object-number__unit fd-list__object-number-unit"
+                >
+                  Euro
+                </span>
+              </span>
+              
+    
+            </div>
+            
+   
           </div>
           
-        
-        </div>
-        
-    
-      </div>
-      
-  
-    </li>
-    
-  
-    <li
-      class="fd-list__item"
-      role="option"
-      tabindex="0"
-    >
-      
-      
-      <div
-        class="fd-form-item fd-list__form-item"
-      >
-        
+   
+          <div
+            class="fd-list__object fd-list__object--bottom"
+          >
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-right"
+              >
+                
+   
+                <span
+                  class="fd-object-status fd-list__object-status fd-object-status--positive"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status__text fd-list__object-status-text"
+                  >
+                    First status
+                  </span>
+                </span>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+   
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+   
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    Second Attribute
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-right"
+              >
+                
+   
+                <span
+                  class="fd-object-status fd-list__object-status fd-object-status--inverted fd-object-status--indication-1"
+                >
+                  Indication1
+                </span>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+   
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+   
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    Third Attribute
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+          </div>
           
-        <input
-          aria-labelledby="O09lk3"
-          class="fd-checkbox"
-          id="Ai4ez6113C"
-          type="checkbox"
-        />
-        
-          
-        <label
-          class="fd-checkbox__label"
-          for="Ai4ez6113C"
-          tabindex="-1"
-        />
-        
-      
-      </div>
-      
-      
-      <div
-        class="fd-list__content"
-      >
-        
-        
-        <div
-          class="fd-list__title"
-          id="O09lk3"
-        >
-          Text-Only List Item
+   
         </div>
         
-        
-        <div
-          class="fd-list__byline"
-        >
-          Byline (description)
-        </div>
-        
-      
-      </div>
-      
   
-    </li>
+      </li>
+      
+
+    </ul>
     
 
-  </ul>
+  </div>
+  
+
+</section>
+`;
+
+exports[`Storyshots Components/List/Object Multi Selection 1`] = `
+<section>
+  
+
+  <h4
+    id="objectListItemMultiSelection"
+  >
+    Object List Item With Multi Selection
+  </h4>
+  
+
+  <div
+    style="max-width: 450px"
+  >
+    
+
+    <ul
+      aria-labelledby="objectListItemMultiSelection"
+      aria-multiselectable="true"
+      class="fd-list fd-list--object fd-list--selection"
+      role="listbox"
+    >
+      
+  
+      <li
+        aria-selected="true"
+        class="fd-list__item is-selected"
+        role="option"
+        tabindex="0"
+      >
+        
+  
+        <div
+          class="fd-form-item fd-list__form-item"
+        >
+          
+          
+          <input
+            checked=""
+            class="fd-checkbox"
+            id="Ai4ez6111Z"
+            type="checkbox"
+          />
+          
+          
+          <label
+            aria-label="select/de-select option 1"
+            class="fd-checkbox__label"
+            for="Ai4ez6111Z"
+            tabindex="-1"
+          />
+          
+  
+        </div>
+        
+    
+        <div
+          class="fd-list__content"
+        >
+          
+    
+          <div
+            class="fd-list__optional"
+          >
+            
+    
+            <span
+              class="fd-list__optional-text"
+            >
+              Optional inline text
+            </span>
+            
+    
+          </div>
+          
+    
+          <div
+            class="fd-list__object fd-list__object--top-row"
+          >
+            
+    
+            <span
+              class="fd-avatar fd-list__object-avatar fd-avatar--s"
+              style="background-image: url('http://lorempixel.com/400/400/nature/4/')"
+            />
+            
+    
+            <div
+              class="fd-list__object fd-list__object--top-left"
+            >
+              
+    
+              <div
+                class="fd-object-identifier fd-list__object-identifier"
+              >
+                
+      
+                <p
+                  class="fd-object-identifier__title fd-list__object-identifier-title"
+                >
+                  
+    Fitbit Versa Smart Watch, Black Fitbit Versa Smart Watch
+     
+                </p>
+                
+     
+              </div>
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--top-right"
+            >
+              
+    
+              <span
+                class="fd-object-number fd-list__object-number fd-object-number--positive"
+              >
+                
+    
+                <span
+                  class="fd-object-number__text fd-list__object-number-text"
+                >
+                  956.00
+                </span>
+                
+    
+                <span
+                  class="fd-object-number__unit fd-list__object-number-unit"
+                >
+                  Euro
+                </span>
+              </span>
+              
+    
+            </div>
+            
+   
+          </div>
+          
+   
+          <div
+            class="fd-list__object fd-list__object--bottom"
+          >
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-right"
+              >
+                
+   
+                <span
+                  class="fd-object-status fd-list__object-status fd-object-status--positive"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status__text fd-list__object-status-text"
+                  >
+                    First status
+                  </span>
+                </span>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+   
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+   
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    Second Attribute
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-right"
+              >
+                
+   
+                <span
+                  class="fd-object-status fd-list__object-status fd-object-status--positive"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status__text fd-list__object-status-text"
+                  >
+                    Second status
+                  </span>
+                </span>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+   
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+   
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    Third Attribute
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+          </div>
+          
+   
+        </div>
+         
+  
+      </li>
+      
+  
+      <li
+        class="fd-list__item"
+        role="option"
+        tabindex="0"
+      >
+        
+  
+        <div
+          class="fd-form-item fd-list__form-item"
+        >
+          
+          
+          <input
+            class="fd-checkbox"
+            id="Ai4ez6111K"
+            type="checkbox"
+          />
+          
+          
+          <label
+            aria-label="select/de-select option 2"
+            class="fd-checkbox__label"
+            for="Ai4ez6111K"
+            tabindex="-1"
+          />
+          
+  
+        </div>
+        
+    
+        <div
+          class="fd-list__content"
+        >
+          
+    
+          <div
+            class="fd-list__optional"
+          >
+            
+    
+            <span
+              class="fd-list__optional-text"
+            >
+              Optional inline text
+            </span>
+            
+    
+          </div>
+          
+    
+          <div
+            class="fd-list__object fd-list__object--top-row"
+          >
+            
+    
+            <span
+              aria-label="John Doe"
+              class="fd-avatar fd-list__object-avatar fd-avatar--s fd-avatar--circle fd-avatar--thumbnail"
+              role="presentation"
+              style="background-image: url('http://lorempixel.com/400/400/nature/4/')"
+            />
+            
+    
+            <div
+              class="fd-list__object fd-list__object--top-left"
+            >
+              
+    
+              <div
+                class="fd-object-identifier fd-list__object-identifier"
+              >
+                
+      
+                <p
+                  class="fd-object-identifier__title fd-list__object-identifier-title"
+                >
+                  
+    Fitbit Versa Smart Watch, Black Fitbit Versa Smart Watch
+     
+                </p>
+                
+     
+              </div>
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--top-right"
+            >
+              
+    
+              <span
+                class="fd-object-number fd-list__object-number fd-object-number--positive"
+              >
+                
+    
+                <span
+                  class="fd-object-number__text fd-list__object-number-text"
+                >
+                  956.00
+                </span>
+                
+    
+                <span
+                  class="fd-object-number__unit fd-list__object-number-unit"
+                >
+                  Euro
+                </span>
+              </span>
+              
+    
+            </div>
+            
+   
+          </div>
+          
+   
+          <div
+            class="fd-list__object fd-list__object--bottom"
+          >
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-right"
+              >
+                
+   
+                <span
+                  class="fd-object-status fd-list__object-status fd-object-status--positive"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status__text fd-list__object-status-text"
+                  >
+                    First status
+                  </span>
+                </span>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+   
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+   
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    Seecond Attribute
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-right"
+              >
+                
+   
+                <span
+                  class="fd-object-status fd-list__object-status fd-object-status--positive"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status__text fd-list__object-status-text"
+                  >
+                    Second status
+                  </span>
+                </span>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+   
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+   
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    Third Attribute
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+          </div>
+          
+   
+        </div>
+        
+  
+      </li>
+      
+
+    </ul>
+    
+
+  </div>
+  
+
+</section>
+`;
+
+exports[`Storyshots Components/List/Object Navigation 1`] = `
+<section>
   
 
 
   <h4
-    id="O09lk8"
+    id="objectListItemNavigation"
   >
-    Compact Size
+    Object List Item With Navigation
+  </h4>
+  
+
+
+  <div
+    style="max-width: 450px"
+  >
+    
+
+    <ul
+      aria-labelledby="objectListItemNavigation"
+      class="fd-list fd-list--object fd-list--navigation"
+      role="listbox"
+    >
+      
+  
+      <li
+        class="fd-list__item fd-list__item--link"
+        role="option"
+        tabindex="0"
+      >
+        
+    
+        <a
+          class="fd-list__link"
+          href="#"
+          tabindex="0"
+        >
+          
+    
+          <div
+            class="fd-list__content"
+          >
+            
+    
+            <div
+              class="fd-list__optional"
+            >
+              
+    
+              <span
+                class="fd-list__optional-text"
+              >
+                Optional inline text
+              </span>
+              
+    
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--top-row"
+            >
+              
+    
+              <span
+                class="fd-avatar fd-list__object-avatar fd-avatar--s fd-avatar--circle fd-avatar--thumbnail"
+                style="background-image: url('http://lorempixel.com/400/400/nature/4/')"
+              />
+              
+    
+              <div
+                class="fd-list__object fd-list__object--top-left"
+              >
+                
+    
+                <div
+                  class="fd-object-identifier fd-list__object-identifier"
+                >
+                  
+      
+                  <p
+                    class="fd-object-identifier__title fd-list__object-identifier-title fd-list__object-identifier-title"
+                  >
+                    
+    Fitbit Versa Smart Watch, Black Fitbit Versa Smart Watch
+     
+                  </p>
+                  
+     
+                </div>
+              </div>
+              
+    
+              <div
+                class="fd-list__object fd-list__object--top-right"
+              >
+                
+    
+                <span
+                  class="fd-object-number fd-list__object-number fd-object-number--positive"
+                >
+                  
+    
+                  <span
+                    class="fd-object-number__text fd-list__object-number-text"
+                  >
+                    956.00
+                  </span>
+                  
+    
+                  <span
+                    class="fd-object-number__unit fd-list__object-number-unit"
+                  >
+                    Euro
+                  </span>
+                </span>
+                
+    
+              </div>
+              
+   
+            </div>
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-row"
+              >
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-right"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status fd-list__object-status fd-object-status--critical"
+                  >
+                    
+   
+                    <span
+                      class="fd-object-status__text fd-list__object-status-text"
+                    >
+                      status
+                    </span>
+                    
+   
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-row"
+              >
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-left"
+                >
+                  
+   
+                  <div
+                    class="fd-list__object-attribute"
+                  >
+                    
+   
+                    <span
+                      class="fd-list__object-attribute-text"
+                    >
+                      Second Attribute
+                    </span>
+                    
+   
+                  </div>
+                  
+     
+                </div>
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-right"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status fd-list__object-status fd-object-status--positive"
+                  >
+                    
+   
+                    <span
+                      class="fd-object-status__text fd-list__object-status-text"
+                    >
+                      Second status
+                    </span>
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-row"
+              >
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-left"
+                >
+                  
+   
+                  <div
+                    class="fd-list__object-attribute"
+                  >
+                    
+   
+                    <span
+                      class="fd-list__object-attribute-text"
+                    >
+                      Third Attribute
+                    </span>
+                    
+   
+                  </div>
+                   
+                </div>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+          </div>
+          
+    
+        </a>
+         
+  
+      </li>
+      
+  
+      <li
+        class="fd-list__item fd-list__item--link"
+        role="option"
+        tabindex="0"
+      >
+        
+    
+        <a
+          class="fd-list__link"
+          tabindex="0"
+        >
+          
+    
+          <div
+            class="fd-list__content"
+          >
+            
+    
+            <div
+              class="fd-list__optional"
+            >
+              
+    
+              <span
+                class="fd-list__optional-text"
+              >
+                Optional inline text
+              </span>
+              
+    
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--top-row"
+            >
+              
+    
+              <span
+                aria-label="John Doe"
+                class="fd-avatar fd-list__object-avatar fd-avatar--s fd-avatar--circle fd-avatar--thumbnail"
+                role="presentation"
+                style="background-image: url('http://lorempixel.com/400/400/nature/4/')"
+              />
+              
+    
+              <div
+                class="fd-list__object fd-list__object--top-left"
+              >
+                
+    
+                <div
+                  class="fd-object-identifier fd-list__object-identifier"
+                >
+                  
+      
+                  <p
+                    class="fd-object-identifier__title fd-list__object-identifier-title"
+                  >
+                    
+    Fitbit Versa Smart Watch, Black Fitbit Versa Smart Watch
+     
+                  </p>
+                  
+     
+                </div>
+              </div>
+              
+     
+              <div
+                class="fd-list__object fd-list__object--top-right"
+              >
+                
+     
+                <span
+                  class="fd-object-number fd-list__object-number fd-object-number--positive"
+                >
+                  
+     
+                  <span
+                    class="fd-object-number__text fd-list__object-number-text"
+                  >
+                    956.00
+                  </span>
+                  
+     
+                  <span
+                    class="fd-object-number__unit fd-list__object-number-unit"
+                  >
+                    Euro
+                  </span>
+                </span>
+                
+     
+              </div>
+              
+    
+            </div>
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-row"
+              >
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-right"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status fd-list__object-status fd-object-status--positive"
+                  >
+                    
+   
+                    <span
+                      class="fd-object-status__text fd-list__object-status-text"
+                    >
+                      First status
+                    </span>
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-row"
+              >
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-left"
+                >
+                  
+   
+                  <div
+                    class="fd-list__object-attribute"
+                  >
+                    
+   
+                    <span
+                      class="fd-list__object-attribute-text"
+                    >
+                      Second Attribute
+                    </span>
+                    
+   
+                  </div>
+                  
+   
+                </div>
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-right"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status fd-list__object-status fd-object-status--positive"
+                  >
+                    
+   
+                    <span
+                      class="fd-object-status__text fd-list__object-status-text"
+                    >
+                      Second status
+                    </span>
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-row"
+              >
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-left"
+                >
+                  
+   
+                  <div
+                    class="fd-list__object-attribute"
+                  >
+                    
+   
+                    <span
+                      class="fd-list__object-attribute-text"
+                    >
+                      Third Attribute
+                    </span>
+                    
+   
+                  </div>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+          </div>
+          
+    
+        </a>
+         
+  
+      </li>
+      
+
+    </ul>
+    
+
+  </div>
+  
+
+</section>
+`;
+
+exports[`Storyshots Components/List/Object Navigation Indicator 1`] = `
+<section>
+  
+
+
+  <h4
+    id="objectListItemNavigationIndicator"
+  >
+    Object List Item With Navigation Indicator
+  </h4>
+  
+
+
+  <div
+    style="max-width: 450px"
+  >
+    
+
+    <ul
+      aria-labelledby="objectListItemNavigationIndicator"
+      class="fd-list fd-list--object fd-list--navigation fd-list--navigation-indication"
+      role="listbox"
+    >
+      
+  
+      <li
+        class="fd-list__item fd-list__item--link"
+        role="option"
+        tabindex="0"
+      >
+        
+    
+        <a
+          class="fd-list__link fd-list__link--navigation-indicator"
+          tabindex="0"
+        >
+          
+    
+          <div
+            class="fd-list__content"
+          >
+            
+    
+            <div
+              class="fd-list__optional"
+            >
+              
+    
+              <span
+                class="fd-list__optional-text"
+              >
+                Optional inline text
+              </span>
+              
+    
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--top-row"
+            >
+              
+    
+              <span
+                class="fd-avatar fd-list__object-avatar fd-avatar--s fd-avatar--circle fd-avatar--thumbnail"
+                style="background-image: url('http://lorempixel.com/400/400/nature/4/')"
+              />
+              
+    
+              <div
+                class="fd-list__object fd-list__object--top-left"
+              >
+                
+    
+                <div
+                  class="fd-object-identifier fd-list__object-identifier"
+                >
+                  
+      
+                  <p
+                    class="fd-object-identifier__title fd-list__object-identifier-title"
+                  >
+                    
+    Fitbit Versa Smart Watch, Black Fitbit Versa Smart Watch
+     
+                  </p>
+                  
+     
+                </div>
+              </div>
+              
+    
+              <div
+                class="fd-list__object fd-list__object--top-right"
+              >
+                
+    
+                <span
+                  class="fd-object-number fd-list__object-number fd-object-number--positive"
+                >
+                  
+    
+                  <span
+                    class="fd-object-number__text fd-list__object-number-text"
+                  >
+                    956.00
+                  </span>
+                  
+    
+                  <span
+                    class="fd-object-number__unit fd-list__object-number-unit"
+                  >
+                    Euro
+                  </span>
+                </span>
+                
+    
+              </div>
+              
+   
+            </div>
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-row"
+              >
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-right"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status fd-list__object-status fd-object-status--positive"
+                  >
+                    
+   
+                    <span
+                      class="fd-object-status__text fd-list__object-status-text"
+                    >
+                      Status
+                    </span>
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-row"
+              >
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-left"
+                >
+                  
+   
+                  <div
+                    class="fd-list__object-attribute"
+                  >
+                    
+   
+                    <span
+                      class="fd-list__object-attribute-text"
+                    >
+                      Second Attribute
+                    </span>
+                    
+   
+                  </div>
+                     
+                </div>
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-right"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status fd-list__object-status fd-object-status--positive"
+                  >
+                    
+   
+                    <span
+                      class="fd-object-status__text fd-list__object-status-text"
+                    >
+                      Second status
+                    </span>
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-row"
+              >
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-left"
+                >
+                  
+   
+                  <div
+                    class="fd-list__object-attribute"
+                  >
+                    
+   
+                    <span
+                      class="fd-list__object-attribute-text"
+                    >
+                      Third Attribute
+                    </span>
+                    
+   
+                  </div>
+                     
+                </div>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+          </div>
+          
+    
+        </a>
+         
+  
+      </li>
+      
+  
+      <li
+        aria-selected="true"
+        class="fd-list__item fd-list__item--link is-selected"
+        role="option"
+        tabindex="0"
+      >
+        
+    
+        <a
+          class="fd-list__link fd-list__link--navigation-indicator is-navigated"
+          tabindex="0"
+        >
+          
+    
+          <div
+            class="fd-list__content"
+          >
+            
+    
+            <div
+              class="fd-list__optional"
+            >
+              
+    
+              <span
+                class="fd-list__optional-text"
+              >
+                Optional inline text
+              </span>
+              
+    
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--top-row"
+            >
+              
+    
+              <span
+                aria-label="John Doe"
+                class="fd-avatar fd-list__object-avatar fd-avatar--s fd-avatar--circle fd-avatar--thumbnail"
+                role="presentation"
+                style="background-image: url('http://lorempixel.com/400/400/nature/4/')"
+              />
+              
+    
+              <div
+                class="fd-list__object fd-list__object--top-left"
+              >
+                
+    
+                <div
+                  class="fd-object-identifier fd-list__object-identifier"
+                >
+                  
+      
+                  <p
+                    class="fd-object-identifier__title fd-list__object-identifier-title"
+                  >
+                    
+    Fitbit Versa Smart Watch, Black Fitbit Versa Smart Watch
+     
+                  </p>
+                  
+     
+                </div>
+              </div>
+              
+    
+              <div
+                class="fd-list__object fd-list__object--top-right"
+              >
+                
+    
+                <span
+                  class="fd-object-number fd-list__object-number fd-object-number--positive"
+                >
+                  
+    
+                  <span
+                    class="fd-object-number__text fd-list__object-number-text"
+                  >
+                    956.00
+                  </span>
+                  
+    
+                  <span
+                    class="fd-object-number__unit fd-list__object-number-unit"
+                  >
+                    Euro
+                  </span>
+                </span>
+                
+    
+              </div>
+              
+   
+            </div>
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-row"
+              >
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-right"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status fd-list__object-status fd-object-status--positive"
+                  >
+                    
+   
+                    <span
+                      class="fd-object-status__text fd-list__object-status-text"
+                    >
+                      First status
+                    </span>
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-row"
+              >
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-left"
+                >
+                  
+   
+                  <div
+                    class="fd-list__object-attribute"
+                  >
+                    
+   
+                    <span
+                      class="fd-list__object-attribute-text"
+                    >
+                      Second Attribute
+                    </span>
+                    
+   
+                  </div>
+                  
+   
+                </div>
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-right"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status fd-list__object-status fd-object-status--positive"
+                  >
+                    
+   
+                    <span
+                      class="fd-object-status__text fd-list__object-status-text"
+                    >
+                      Second status
+                    </span>
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-row"
+              >
+                
+   
+                <div
+                  class="fd-list__object fd-list__object--bottom-left"
+                >
+                  
+   
+                  <div
+                    class="fd-list__object-attribute"
+                  >
+                    
+   
+                    <span
+                      class="fd-list__object-attribute-text"
+                    >
+                      Third Attribute
+                    </span>
+                    
+   
+                  </div>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+          </div>
+          
+    
+        </a>
+         
+  
+      </li>
+      
+
+    </ul>
+    
+
+  </div>
+  
+
+</section>
+`;
+
+exports[`Storyshots Components/List/Object Object 1`] = `
+<section>
+  
+
+  <h4
+    id="objectListItemHeader"
+  >
+    Object List Item
   </h4>
   
 
   <ul
-    aria-labelledby="O09lk8"
-    class="fd-list fd-list--compact fd-list--selection fd-list--byline"
+    aria-labelledby="objectListItemHeader"
+    class="fd-list fd-list--object"
     role="listbox"
   >
     
@@ -258,55 +1997,256 @@ exports[`Storyshots Components/List/Byline Selection 1`] = `
       tabindex="0"
     >
       
-      
-      <div
-        class="fd-form-item fd-list__form-item"
-      >
-        
-          
-        <input
-          aria-labelledby="O09lk4"
-          class="fd-checkbox fd-checkbox--compact"
-          id="Ai4ez6115V"
-          type="checkbox"
-        />
-        
-          
-        <label
-          class="fd-checkbox__label fd-checkbox__label--compact"
-          for="Ai4ez6115V"
-          tabindex="-1"
-        />
-        
-      
-      </div>
-      
-      
-      <span
-        class="sap-icon--activate fd-list__thumbnail"
-      />
-      
-      
+  
       <div
         class="fd-list__content"
       >
         
-        
-        <span
-          class="fd-list__title"
-          id="O09lk4"
+     
+        <div
+          class="fd-list__optional"
         >
-          Title
-        </span>
+          
+     
+          <span
+            class="fd-list__optional-text"
+          >
+            Optional inline text
+          </span>
+          
+     
+        </div>
         
-        
-        <span
-          class="fd-list__byline"
+     
+        <div
+          class="fd-list__object fd-list__object--top-row"
         >
-          Byline (description)
-        </span>
-        
+          
+     
+          <span
+            class="fd-avatar fd-avatar--s fd-list__object-avatar"
+            style="background-image: url('http://lorempixel.com/400/400/nature/4/')"
+          />
+          
+     
+          <div
+            class="fd-list__object fd-list__object--top-left"
+          >
+            
+     
+            <div
+              class="fd-object-identifier fd-list__object-identifier"
+            >
+              
+       
+              <p
+                class="fd-object-identifier__title fd-list__object-identifier-title"
+              >
+                
+     Fitbit Versa Smart Watch, Black Fitbit Versa Smart Watch
       
+              </p>
+              
+      
+            </div>
+            
+      
+          </div>
+          
+     
+          <div
+            class="fd-list__object fd-list__object--top-right"
+          >
+            
+     
+            <span
+              class="fd-object-number fd-object-number--critical fd-list__object-number"
+            >
+              
+     
+              <span
+                class="fd-object-number__text fd-list__object-number-text"
+              >
+                457.00
+              </span>
+              
+     
+              <span
+                class="fd-object-number__unit fd-list__object-number-unit"
+              >
+                Euro
+              </span>
+              
+     
+            </span>
+            
+     
+          </div>
+          
+    
+        </div>
+        
+    
+        <div
+          class="fd-list__object fd-list__object--bottom"
+        >
+          
+    
+          <div
+            class="fd-list__object fd-list__object--bottom-row"
+          >
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-left"
+            >
+              
+    
+              <div
+                class="fd-list__object-attribute"
+              >
+                
+      
+                <span
+                  class="fd-list__object-attribute-text"
+                >
+                  First Attribute
+                </span>
+                
+      
+              </div>
+              
+    
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-right"
+            >
+              
+    
+              <div
+                class="fd-object-marker"
+              >
+                
+    
+                <i
+                  aria-label="icon for flag"
+                  class="fd-object-marker__icon sap-icon--flag"
+                />
+                
+    
+              </div>
+              
+    
+              <div
+                class="fd-object-marker"
+              >
+                
+    
+                <i
+                  aria-label="icon for favourite"
+                  class="fd-object-marker__icon sap-icon--favorite"
+                />
+                
+    
+              </div>
+              
+    
+            </div>
+            
+    
+          </div>
+          
+    
+          <div
+            class="fd-list__object fd-list__object--bottom-row"
+          >
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-left"
+            >
+              
+    
+              <div
+                class="fd-list__object-attribute"
+              >
+                
+    
+                <span
+                  class="fd-list__object-attribute-text"
+                >
+                  Second Attribute
+                </span>
+                
+    
+              </div>
+              
+    
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-right"
+            >
+              
+    
+              <span
+                class="fd-object-status fd-object-status--critical fd-list__object-status"
+              >
+                
+    
+                <span
+                  class="fd-object-status__text fd-list__object-status-text"
+                >
+                  Critical
+                </span>
+                
+    
+              </span>
+              
+    
+            </div>
+            
+    
+          </div>
+          
+    
+          <div
+            class="fd-list__object fd-list__object--bottom-row"
+          >
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-left"
+            >
+              
+    
+              <div
+                class="fd-list__object-attribute"
+              >
+                
+    
+                <span
+                  class="fd-list__object-attribute-text"
+                >
+                  Third Attribute
+                </span>
+                
+    
+              </div>
+              
+    
+            </div>
+            
+    
+          </div>
+          
+    
+        </div>
+        
+    
       </div>
       
   
@@ -319,69 +2259,229 @@ exports[`Storyshots Components/List/Byline Selection 1`] = `
       tabindex="0"
     >
       
-    
-      <div
-        class="fd-form-item fd-list__form-item"
-      >
-        
-          
-        <input
-          aria-labelledby="O09lk5"
-          class="fd-checkbox fd-checkbox--compact"
-          id="Ai4ez6116B"
-          type="checkbox"
-        />
-        
-          
-        <label
-          class="fd-checkbox__label fd-checkbox__label--compact"
-          for="Ai4ez6116B"
-          tabindex="-1"
-        />
-        
-      
-      </div>
-      
-    
-      <span
-        aria-label="Image label"
-        class="fd-image--s fd-list__thumbnail"
-        style="background-image: url('http://lorempixel.com/400/400/nature/5/');"
-      />
-      
-    
+  
       <div
         class="fd-list__content"
       >
         
-        
+     
         <div
-          class="fd-list__title"
-          id="O09lk5"
+          class="fd-list__object fd-list__object--top-row"
         >
-          List Item With Two-Column Byline
+          
+     
+          <span
+            class="fd-avatar fd-list__object-avatar fd-avatar--s"
+            style="background-image: url('http://lorempixel.com/400/400/nature/4/')"
+          />
+          
+     
+          <div
+            class="fd-list__object fd-list__object--top-left"
+          >
+            
+     
+            <div
+              class="fd-object-identifier fd-list__object-identifier"
+            >
+              
+       
+              <p
+                class="fd-object-identifier__title fd-list__object-identifier-title"
+              >
+                
+     Fitbit Versa Smart Watch, Black Fitbit Versa Smart Watch
+      
+              </p>
+              
+      
+            </div>
+            
+      
+          </div>
+          
+     
+          <div
+            class="fd-list__object fd-list__object--top-right"
+          >
+            
+     
+            <span
+              class=" fd-object-number fd-list__object-number"
+            >
+              
+     
+              <span
+                class="fd-object-number__text fd-list__object-number-text"
+              >
+                956.00
+              </span>
+              
+     
+              <span
+                class="fd-object-number__unit fd-list__object-number-unit"
+              >
+                Euro
+              </span>
+              
+     
+            </span>
+            
+     
+          </div>
+          
+    
         </div>
         
-        
+    
         <div
-          class="fd-list__byline fd-list__byline--2-col"
+          class="fd-list__object fd-list__object--bottom"
         >
           
-            
+    
           <div
-            class="fd-list__byline-left"
+            class="fd-list__object fd-list__object--bottom-row"
           >
-            First text item in Byline (Standard text item)
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-left"
+            >
+              
+    
+              <div
+                class="fd-list__object-attribute"
+              >
+                
+    
+                <span
+                  class="fd-list__object-attribute-text"
+                >
+                  First Attribute
+                </span>
+                
+    
+              </div>
+              
+    
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-right"
+            >
+              
+    
+              <span
+                class="fd-object-status fd-list__object-status fd-object-status--negative"
+              >
+                
+    
+                <i
+                  class="fd-object-status__icon fd-list__object-status-icon sap-icon--status-negative"
+                  role="presentation"
+                />
+                
+    
+                <span
+                  class="fd-object-status__text fd-list__object-status-text"
+                >
+                  Negative
+                </span>
+                
+   
+              </span>
+              
+   
+            </div>
+            
+    
           </div>
           
-            
+    
           <div
-            class="fd-list__byline-right"
+            class="fd-list__object fd-list__object--bottom-row"
           >
-            Second text item in Byline (Can be semantic (Status) or not)
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-left"
+            >
+              
+    
+              <div
+                class="fd-list__object-attribute"
+              >
+                
+    
+                <span
+                  class="fd-list__object-attribute-text"
+                >
+                  Second Attribute
+                </span>
+                
+    
+              </div>
+              
+    
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-right"
+            >
+              
+    
+              <span
+                class="fd-object-status fd-list__object-status fd-object-status--positive"
+              >
+                
+   
+                <span
+                  class="fd-object-status__text fd-list__object-status-text"
+                >
+                  Second status
+                </span>
+              </span>
+              
+    
+            </div>
+            
+    
           </div>
           
-        
+    
+          <div
+            class="fd-list__object fd-list__object--bottom-row"
+          >
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-left"
+            >
+              
+    
+              <div
+                class="fd-list__object-attribute"
+              >
+                
+    
+                <span
+                  class="fd-list__object-attribute-text"
+                >
+                  Third Attribute
+                </span>
+                
+    
+              </div>
+              
+    
+            </div>
+            
+    
+          </div>
+          
+    
         </div>
         
     
@@ -397,50 +2497,409 @@ exports[`Storyshots Components/List/Byline Selection 1`] = `
       tabindex="0"
     >
       
-      
-      <div
-        class="fd-form-item fd-list__form-item"
-      >
-        
-          
-        <input
-          aria-labelledby="O09lk6"
-          class="fd-checkbox fd-checkbox--compact"
-          id="Ai4ez6117N"
-          type="checkbox"
-        />
-        
-          
-        <label
-          class="fd-checkbox__label fd-checkbox__label--compact"
-          for="Ai4ez6117N"
-          tabindex="-1"
-        />
-        
-      
-      </div>
-      
-      
+  
       <div
         class="fd-list__content"
       >
         
-        
+     
         <div
-          class="fd-list__title"
-          id="O09lk6"
+          class="fd-list__object fd-list__object--top-row"
         >
-          Text-Only List Item
-        </div>
-        
-        
-        <div
-          class="fd-list__byline"
-        >
-          Byline (description)
-        </div>
-        
+          
+     
+          <div
+            class="fd-list__object fd-list__object--top-left"
+          >
+            
+     
+            <div
+              class="fd-object-identifier fd-list__object-identifier"
+            >
+              
+       
+              <p
+                class="fd-object-identifier__title fd-list__object-identifier-title"
+              >
+                
+     Fitbit Versa Smart Watch, Black Fitbit Versa Smart Watch
       
+              </p>
+              
+      
+            </div>
+            
+      
+          </div>
+          
+      
+          <div
+            class="fd-list__object fd-list__object--top-right"
+          >
+            
+      
+            <span
+              class="fd-object-number fd-object-number--critical fd-list__object-number"
+            >
+              
+      
+              <span
+                class="fd-object-number__text fd-list__object-number-text"
+              >
+                457.00
+              </span>
+              
+      
+              <span
+                class="fd-object-number__unit fd-list__object-number-unit"
+              >
+                Euro
+              </span>
+              
+      
+            </span>
+            
+      
+          </div>
+          
+     
+        </div>
+        
+    
+        <div
+          class="fd-list__object fd-list__object--bottom"
+        >
+          
+    
+          <div
+            class="fd-list__object fd-list__object--bottom-row"
+          >
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-left"
+            >
+              
+    
+              <div
+                class="fd-list__object-attribute"
+              >
+                
+    
+                <span
+                  class="fd-list__object-attribute-text"
+                >
+                  First Attribute
+                </span>
+                
+    
+              </div>
+              
+    
+            </div>
+            
+    
+          </div>
+          
+    
+          <div
+            class="fd-list__object fd-list__object--bottom-row"
+          >
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-left"
+            >
+              
+    
+              <div
+                class="fd-list__object-attribute"
+              >
+                
+    
+                <span
+                  class="fd-list__object-attribute-text"
+                >
+                  Second Attribute
+                </span>
+                
+    
+              </div>
+              
+    
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-right"
+            >
+              
+    
+              <span
+                class="fd-object-status fd-list__object-status fd-object-status--inverted fd-object-status--critical"
+              >
+                Inverted Warning
+              </span>
+              
+    
+            </div>
+            
+    
+          </div>
+          
+    
+          <div
+            class="fd-list__object fd-list__object--bottom-row"
+          >
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-left"
+            >
+              
+    
+              <div
+                class="fd-list__object-attribute"
+              >
+                
+    
+                <span
+                  class="fd-list__object-attribute-text"
+                >
+                  Third Attribute
+                </span>
+                
+    
+              </div>
+              
+    
+            </div>
+            
+    
+          </div>
+          
+    
+        </div>
+        
+    
+      </div>
+      
+  
+    </li>
+    <li
+      class="fd-list__item"
+      role="option"
+      tabindex="0"
+    >
+      
+  
+      <div
+        class="fd-list__content"
+      >
+        
+     
+        <div
+          class="fd-list__optional"
+        >
+          
+     
+          <span
+            class="fd-list__optional-text"
+          >
+            Optional inline text
+          </span>
+          
+     
+        </div>
+        
+     
+        <div
+          class="fd-list__object fd-list__object--top-row"
+        >
+          
+     
+          <span
+            class="fd-avatar fd-list__object-avatar fd-avatar--s"
+            style="background-image: url('http://lorempixel.com/400/400/nature/4/')"
+          />
+          
+     
+          <div
+            class="fd-list__object fd-list__object--top-left"
+          >
+            
+     
+            <div
+              class="fd-object-identifier fd-list__object-identifier"
+            >
+              
+       
+              <p
+                class="fd-object-identifier__title fd-list__object-identifier-title"
+              >
+                
+     Fitbit Versa Smart Watch, Black Fitbit Versa Smart Watch
+      
+              </p>
+              
+      
+            </div>
+          </div>
+          
+      
+          <div
+            class="fd-list__object fd-list__object--top-right"
+          >
+            
+      
+            <span
+              class="fd-object-number fd-object-number--critical fd-list__object-number"
+            >
+              
+      
+              <span
+                class="fd-object-number__text fd-list__object-number-text"
+              >
+                757.00
+              </span>
+              
+      
+              <span
+                class="fd-object-number__unit fd-list__object-number-unit"
+              >
+                Euro
+              </span>
+              
+      
+            </span>
+            
+      
+          </div>
+          
+     
+        </div>
+        
+    
+        <div
+          class="fd-list__object fd-list__object--bottom"
+        >
+          
+    
+          <div
+            class="fd-list__object fd-list__object--bottom-row"
+          >
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-right"
+            >
+              
+    
+              <span
+                class="fd-object-status fd-list__object-status fd-object-status--positive"
+              >
+                
+    
+                <span
+                  class="fd-object-status__text fd-list__object-status-text"
+                >
+                  First status
+                </span>
+              </span>
+              
+    
+            </div>
+            
+    
+          </div>
+          
+    
+          <div
+            class="fd-list__object fd-list__object--bottom-row"
+          >
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-left"
+            >
+              
+    
+              <div
+                class="fd-list__object-attribute"
+              >
+                
+    
+                <span
+                  class="fd-list__object-attribute-text"
+                >
+                  Second Attribute
+                </span>
+                
+    
+              </div>
+              
+    
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-right"
+            >
+              
+    
+              <span
+                class="fd-object-status fd-list__object-status fd-object-status--positive"
+              >
+                
+   
+                <span
+                  class="fd-object-status__text fd-list__object-status-text"
+                >
+                  Second status
+                </span>
+              </span>
+              
+    
+            </div>
+            
+    
+          </div>
+          
+    
+          <div
+            class="fd-list__object fd-list__object--bottom-row"
+          >
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-left"
+            >
+              
+    
+              <div
+                class="fd-list__object-attribute"
+              >
+                
+    
+                <span
+                  class="fd-list__object-attribute-text"
+                >
+                  Third Attribute
+                </span>
+                
+    
+              </div>
+              
+    
+            </div>
+            
+    
+          </div>
+          
+    
+        </div>
+        
+    
       </div>
       
   
@@ -453,818 +2912,1238 @@ exports[`Storyshots Components/List/Byline Selection 1`] = `
 </section>
 `;
 
-exports[`Storyshots Components/List/Byline Selection with navigation 1`] = `
+exports[`Storyshots Components/List/Object Rtl 1`] = `
 <section>
   
 
+
   <h4
-    id="Ki81L1"
+    id="objectListItemRTL"
   >
-    Standard Size
+    Object list item in RTL mode
   </h4>
   
 
-  <ul
-    aria-labelledby="Ki81L1"
-    class="fd-list fd-list--selection fd-list--byline fd-list--navigation fd-list--navigation-indication"
-    role="listbox"
+
+  <div
+    dir="rtl"
+    style="width: 100%"
   >
     
-  
-    <li
-      class="fd-list__item"
-      role="option"
-      tabindex="0"
+
+    <ul
+      aria-labelledby="objectListItemRTL"
+      class="fd-list fd-list--object"
+      role="listbox"
     >
       
-    
-      <div
-        class="fd-form-item fd-list__form-item"
-      >
-        
-        
-        <input
-          aria-labelledby="Ki81L2"
-          class="fd-checkbox"
-          id="Ai4ez6118N"
-          type="checkbox"
-        />
-        
-        
-        <label
-          class="fd-checkbox__label"
-          for="Ai4ez6118N"
-          tabindex="-1"
-        />
-        
-    
-      </div>
-      
-    
-      <span
-        class="sap-icon--activate fd-list__thumbnail"
-      />
-      
-    
-      <div
-        class="fd-list__content"
-      >
-        
-    
-        <span
-          class="fd-list__title"
-          id="Ki81L2"
-        >
-          Title
-        </span>
-        
-    
-        <span
-          class="fd-list__byline"
-        >
-          Byline (description)
-        </span>
-        
-    
-      </div>
-      
-  
-    </li>
-    
-  
-    <li
-      aria-selected="true"
-      class="fd-list__item fd-list__item--link is-selected"
-      role="option"
-      tabindex="-1"
-    >
-      
-    
-      <div
-        class="fd-form-item fd-list__form-item"
-      >
-        
-        
-        <input
-          aria-labelledby="Ki81L3"
-          checked=""
-          class="fd-checkbox"
-          id="Ai4ez6119N"
-          type="checkbox"
-        />
-        
-        
-        <label
-          class="fd-checkbox__label"
-          for="Ai4ez6119N"
-          tabindex="-1"
-        />
-        
-    
-      </div>
-      
-    
-      <a
-        class="fd-list__link fd-list__link--navigation-indicator is-navigated"
-        href="#"
+
+      <li
+        class="fd-list__item"
+        role="option"
         tabindex="0"
       >
         
-    
-        <span
-          aria-label="Image label"
-          class="fd-image--s fd-list__thumbnail"
-          style="background-image: url('http://lorempixel.com/400/400/nature/5/');"
-        />
-        
-    
+
         <div
           class="fd-list__content"
         >
           
-        
+   
           <div
-            class="fd-list__title"
-            id="Ki81L3"
+            class="fd-list__optional"
           >
-            List Item With Two-Column Byline
+            
+   
+            <span
+              class="fd-list__optional-text"
+            >
+              Optional inline text
+            </span>
+            
+   
           </div>
           
-        
+   
           <div
-            class="fd-list__byline fd-list__byline--2-col"
+            class="fd-list__object fd-list__object--top-row"
           >
             
+   
+            <span
+              class="fd-avatar fd-list__object-avatar fd-avatar--s"
+              style="background-image: url('http://lorempixel.com/400/400/nature/4/')"
+            />
             
+   
             <div
-              class="fd-list__byline-left"
+              class="fd-list__object fd-list__object--top-left"
             >
-              First text item in Byline (Standard text item)
+              
+   
+              <div
+                class="fd-object-identifier fd-list__object-identifier"
+              >
+                
+     
+                <p
+                  class="fd-object-identifier__title fd-list__object-identifier-title"
+                >
+                  
+   Fitbit Versa Smart Watch, Black Fitbit Versa Smart Watch
+    
+                </p>
+                
+    
+              </div>
             </div>
             
-            
+   
             <div
-              class="fd-list__byline-right"
+              class="fd-list__object fd-list__object--top-right"
             >
-              Second text item in Byline (Can be semantic (Status) or not)
+              
+   
+              <span
+                class="fd-object-number fd-list__object-number"
+              >
+                
+   
+                <span
+                  class="fd-object-number__text fd-list__object-number-text"
+                >
+                  956.00
+                </span>
+                
+   
+                <span
+                  class="fd-object-number__unit fd-list__object-number-unit"
+                >
+                  Euro
+                </span>
+              </span>
+              
+   
             </div>
             
-        
+  
           </div>
           
-    
-        </div>
-        
-    
-      </a>
-      
   
-    </li>
-    
-  
-    <li
-      class="fd-list__item fd-list__item--link"
-      role="option"
-      tabindex="-1"
-    >
-      
-    
-      <div
-        class="fd-form-item fd-list__form-item"
-      >
-        
-        
-        <input
-          aria-labelledby="Ki81L4"
-          class="fd-checkbox"
-          id="Ai4ez61110N"
-          type="checkbox"
-        />
-        
-        
-        <label
-          class="fd-checkbox__label"
-          for="Ai4ez61110N"
-          tabindex="-1"
-        />
-        
-    
-      </div>
-      
-    
-      <a
-        class="fd-list__link fd-list__link--navigation-indicator"
-        href="#"
-        tabindex="0"
-      >
-        
-      
-        <div
-          class="fd-list__content"
-        >
-          
-        
           <div
-            class="fd-list__title"
-            id="Ki81L4"
+            class="fd-list__object fd-list__object--bottom"
           >
-            Text-Only List Item
-          </div>
-          
-        
-          <div
-            class="fd-list__byline"
-          >
-            Byline (description)
-          </div>
-          
-      
-        </div>
-        
-    
-      </a>
-      
-  
-    </li>
-    
-
-  </ul>
-  
-
-
-  <h4
-    id="Ki81L5"
-  >
-    Compact Size
-  </h4>
-  
-
-  <ul
-    aria-labelledby="Ki81L5"
-    class="fd-list fd-list--compact fd-list--selection fd-list--byline fd-list--navigation fd-list--navigation-indication"
-    role="listbox"
-  >
-    
-  
-    <li
-      class="fd-list__item fd-list__item--link"
-      role="option"
-      tabindex="-1"
-    >
-      
-    
-      <div
-        class="fd-form-item fd-list__form-item"
-      >
-        
-        
-        <input
-          aria-labelledby="Ki81L6"
-          class="fd-checkbox fd-checkbox--compact"
-          id="Ai4ez6118CON"
-          type="checkbox"
-        />
-        
-        
-        <label
-          class="fd-checkbox__label fd-checkbox__label--compact"
-          for="Ai4ez6118CON"
-          tabindex="-1"
-        />
-        
-    
-      </div>
-      
-    
-      <a
-        class="fd-list__link fd-list__link--navigation-indicator"
-        href="#"
-        tabindex="0"
-      >
-        
-      
-        <span
-          class="sap-icon--activate fd-list__thumbnail"
-        />
-        
-      
-        <div
-          class="fd-list__content"
-        >
-          
-        
-          <span
-            class="fd-list__title"
-            id="Ki81L6"
-          >
-            Title
-          </span>
-          
-        
-          <span
-            class="fd-list__byline"
-          >
-            Byline (description)
-          </span>
-          
-      
-        </div>
-        
-    
-      </a>
-      
-  
-    </li>
-    
-  
-    <li
-      class="fd-list__item is-selected"
-      role="option"
-      tabindex="0"
-    >
-      
-    
-      <div
-        class="fd-form-item fd-list__form-item"
-      >
-        
-        
-        <input
-          aria-labelledby="Ki81L7"
-          checked=""
-          class="fd-checkbox fd-checkbox--compact"
-          id="Ai4ez6119CON"
-          type="checkbox"
-        />
-        
-        
-        <label
-          class="fd-checkbox__label fd-checkbox__label--compact"
-          for="Ai4ez6119CON"
-          tabindex="-1"
-        />
-        
-    
-      </div>
-      
-    
-      <span
-        aria-label="Image label"
-        class="fd-image--s fd-list__thumbnail"
-        style="background-image: url('http://lorempixel.com/400/400/nature/5/');"
-      />
-      
-    
-      <div
-        class="fd-list__content"
-      >
-        
-        
-        <div
-          class="fd-list__title"
-          id="Ki81L7"
-        >
-          List Item With Two-Column Byline
-        </div>
-        
-        
-        <div
-          class="fd-list__byline fd-list__byline--2-col"
-        >
-          
             
-          <div
-            class="fd-list__byline-left"
-          >
-            First text item in Byline (Standard text item)
-          </div>
-          
+  
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+  
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+  
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+  
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    First Attribute
+                  </span>
+                  
+  
+                </div>
+                
+  
+              </div>
+              
+  
+              <div
+                class="fd-list__object fd-list__object--bottom-right"
+              >
+                
+  
+                <div
+                  class="fd-object-marker"
+                >
+                  
+  
+                  <i
+                    aria-label="icon for flag"
+                    class="fd-object-marker__icon sap-icon--flag"
+                  />
+                  
+  
+                </div>
+                
+  
+                <div
+                  class="fd-object-marker"
+                >
+                  
+  
+                  <i
+                    aria-label="icon for favourite"
+                    class="fd-object-marker__icon sap-icon--favorite"
+                  />
+                  
+  
+                </div>
+                
+  
+              </div>
+              
+  
+            </div>
             
-          <div
-            class="fd-list__byline-right"
-          >
-            Second text item in Byline (Can be semantic (Status) or not)
+  
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+  
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+  
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+  
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    Second Attribute
+                  </span>
+                  
+  
+                </div>
+                
+  
+              </div>
+              
+  
+              <div
+                class="fd-list__object fd-list__object--bottom-right"
+              >
+                
+  
+                <span
+                  class="fd-object-status fd-list__object-status fd-object-status--positive"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status__text fd-list__object-status-text"
+                  >
+                    Second status
+                  </span>
+                </span>
+                
+  
+              </div>
+              
+  
+            </div>
+            
+  
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+  
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+  
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+  
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    Third Attribute
+                  </span>
+                  
+  
+                </div>
+                
+  
+              </div>
+              
+  
+            </div>
+            
+  
           </div>
           
-        
+  
         </div>
         
-    
-      </div>
+
+      </li>
       
-  
-    </li>
-    
-  
-    <li
-      class="fd-list__item fd-list__item--link"
-      role="option"
-      tabindex="-1"
-    >
-      
-    
-      <div
-        class="fd-form-item fd-list__form-item"
-      >
-        
-        
-        <input
-          aria-labelledby="Ki81L8"
-          class="fd-checkbox fd-checkbox--compact"
-          id="Ai4ez61110CON"
-          type="checkbox"
-        />
-        
-        
-        <label
-          class="fd-checkbox__label fd-checkbox__label--compact"
-          for="Ai4ez61110CON"
-          tabindex="-1"
-        />
-        
-    
-      </div>
-      
-    
-      <a
-        class="fd-list__link fd-list__link--navigation-indicator is-navigated"
-        href="#"
+
+      <li
+        class="fd-list__item"
+        role="option"
         tabindex="0"
       >
         
-      
+
         <div
           class="fd-list__content"
         >
           
-        
+   
           <div
-            class="fd-list__title"
-            id="Ki81L8"
+            class="fd-list__optional"
           >
-            Text-Only List Item
+            
+   
+            <span
+              class="fd-list__optional-text"
+            >
+              Optional inline text
+            </span>
+            
+   
           </div>
           
-        
+   
           <div
-            class="fd-list__byline"
+            class="fd-list__object fd-list__object--top-row"
           >
-            Byline (description)
+            
+   
+            <span
+              class="fd-avatar fd-list__object-avatar fd-avatar--s"
+              style="background-image: url('http://lorempixel.com/400/400/nature/4/')"
+            />
+            
+   
+            <div
+              class="fd-list__object fd-list__object--top-left"
+            >
+              
+   
+              <div
+                class="fd-object-identifier fd-list__object-identifier"
+              >
+                
+     
+                <p
+                  class="fd-object-identifier__title fd-list__object-identifier-title"
+                >
+                  
+   Fitbit Versa Smart Watch, Black Fitbit Versa Smart Watch
+    
+                </p>
+                
+    
+              </div>
+            </div>
+            
+   
+            <div
+              class="fd-list__object fd-list__object--top-right"
+            >
+              
+   
+              <span
+                class="fd-object-number fd-list__object-number"
+              >
+                
+   
+                <span
+                  class="fd-object-number__text fd-list__object-number-text"
+                >
+                  956.00
+                </span>
+                
+   
+                <span
+                  class="fd-object-number__unit fd-list__object-number-unit"
+                >
+                  Euro
+                </span>
+              </span>
+              
+   
+            </div>
+            
+  
           </div>
           
-      
+  
+          <div
+            class="fd-list__object fd-list__object--bottom"
+          >
+            
+  
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+  
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+  
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+  
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    First Attribute
+                  </span>
+                  
+  
+                </div>
+                
+  
+              </div>
+              
+  
+              <div
+                class="fd-list__object fd-list__object--bottom-right"
+              >
+                
+  
+                <span
+                  class="fd-object-status fd-list__object-status fd-object-status--negative"
+                >
+                  Negative
+                </span>
+                
+  
+              </div>
+              
+  
+            </div>
+            
+  
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+  
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+  
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+  
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    Second Attribute
+                  </span>
+                  
+  
+                </div>
+                  
+              </div>
+              
+  
+              <div
+                class="fd-list__object fd-list__object--bottom-right"
+              >
+                
+  
+                <span
+                  class="fd-object-status fd-list__object-status fd-object-status--positive"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status__text fd-list__object-status-text"
+                  >
+                    Second status
+                  </span>
+                </span>
+                
+  
+              </div>
+              
+  
+            </div>
+            
+  
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+  
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+  
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+  
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    Third Attribute
+                  </span>
+                  
+  
+                </div>
+                  
+              </div>
+              
+  
+            </div>
+            
+  
+          </div>
+          
+  
         </div>
         
-    
-      </a>
+
+      </li>
       
+
+      <li
+        class="fd-list__item"
+        role="option"
+        tabindex="0"
+      >
+        
   
-    </li>
+        <div
+          class="fd-list__content"
+        >
+          
+     
+          <div
+            class="fd-list__object fd-list__object--top-row"
+          >
+            
+     
+            <span
+              class="fd-avatar fd-list__object-avatar fd-avatar--s"
+              style="background-image: url('http://lorempixel.com/400/400/nature/4/')"
+            />
+            
+     
+            <div
+              class="fd-list__object fd-list__object--top-left"
+            >
+              
+     
+              <div
+                class="fd-object-identifier fd-list__object-identifier"
+              >
+                
+       
+                <p
+                  class="fd-object-identifier__title fd-list__object-identifier-title"
+                >
+                  
+     Fitbit Versa Smart Watch, Black Fitbit Versa Smart Watch
+      
+                </p>
+                
+      
+              </div>
+              
+      
+            </div>
+            
+     
+            <div
+              class="fd-list__object fd-list__object--top-right"
+            >
+              
+     
+              <span
+                class="fd-object-number fd-list__object-number"
+              >
+                
+     
+                <span
+                  class="fd-object-number__text fd-list__object-number-text"
+                >
+                  956.00
+                </span>
+                
+     
+                <span
+                  class="fd-object-number__unit fd-list__object-number-unit"
+                >
+                  Euro
+                </span>
+              </span>
+              
+     
+            </div>
+            
+    
+          </div>
+          
+    
+          <div
+            class="fd-list__object fd-list__object--bottom"
+          >
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+    
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+    
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+    
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    First Attribute
+                  </span>
+                  
+    
+                </div>
+                
+    
+              </div>
+              
+    
+              <div
+                class="fd-list__object fd-list__object--bottom-right"
+              >
+                
+    
+                <span
+                  class="fd-object-status fd-list__object-status fd-object-status--negative"
+                >
+                  
+    
+                  <i
+                    class="fd-object-status__icon fd-list__object-status-icon sap-icon--status-negative"
+                    role="presentation"
+                  />
+                  
+    
+                  <span
+                    class="fd-object-status__text fd-list__object-status-text"
+                  >
+                    Negative
+                  </span>
+                  
+   
+                </span>
+                
+   
+              </div>
+              
+    
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+    
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+    
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+    
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    Second Attribute
+                  </span>
+                  
+    
+                </div>
+                
+    
+              </div>
+              
+    
+              <div
+                class="fd-list__object fd-list__object--bottom-right"
+              >
+                
+    
+                <span
+                  class="fd-object-status fd-list__object-status fd-object-status--positive"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status__text fd-list__object-status-text"
+                  >
+                    Second status
+                  </span>
+                </span>
+                
+    
+              </div>
+              
+    
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+    
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+    
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+    
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    Third Attribute
+                  </span>
+                  
+    
+                </div>
+                
+    
+              </div>
+              
+    
+            </div>
+            
+    
+          </div>
+          
+    
+        </div>
+        
+  
+      </li>
+      
+    
+    </ul>
     
 
-  </ul>
+  </div>
   
 
 </section>
 `;
 
-exports[`Storyshots Components/List/Byline Standard 1`] = `
+exports[`Storyshots Components/List/Object Selection 1`] = `
 <section>
   
 
-  <h4>
-    Standard Size
+  <h4
+    id="objectListItemRowSelection"
+  >
+    Object List Item With Row Selection
   </h4>
   
 
-  <ul
-    class="fd-list fd-list--byline"
-    role="list"
+  <div
+    style="max-width: 450px"
   >
     
-  
-    <li
-      class="fd-list__item"
-      role="listitem"
-      tabindex="0"
+
+    <ul
+      aria-labelledby="objectListItemRowSelection"
+      class="fd-list fd-list--object fd-list--selection fd-list__row-selection"
+      role="listbox"
     >
       
-      
-      <span
-        class="sap-icon--activate fd-list__thumbnail"
-      />
-      
-      
-      <div
-        class="fd-list__content"
+  
+      <li
+        class="fd-list__item"
+        role="option"
+        tabindex="0"
       >
         
-        
-        <div
-          class="fd-list__title"
-        >
-          Title
-        </div>
-        
-        
-        <div
-          class="fd-list__byline"
-        >
-          Byline (description)
-        </div>
-        
-      
-      </div>
-      
-  
-    </li>
     
-  
-    <li
-      class="fd-list__item"
-      role="listitem"
-      tabindex="0"
-    >
-      
-      
-      <span
-        class="sap-icon--employee fd-list__thumbnail"
-      />
-      
-      
-      <div
-        class="fd-list__content"
-      >
-        
-        
         <div
-          class="fd-list__title"
-        >
-          List Item With No Byline
-        </div>
-        
-      
-      </div>
-      
-  
-    </li>
-    
-  
-    <li
-      class="fd-list__item"
-      role="listitem"
-      tabindex="0"
-    >
-      
-    
-      <span
-        aria-label="Image label"
-        class="fd-image--s fd-list__thumbnail"
-        style="background-image: url('http://lorempixel.com/400/400/nature/5/');"
-      />
-      
-    
-      <div
-        class="fd-list__content"
-      >
-        
-        
-        <div
-          class="fd-list__title"
-        >
-          List Item With Two-Column Byline
-        </div>
-        
-        
-        <div
-          class="fd-list__byline fd-list__byline--2-col"
+          class="fd-list__content"
         >
           
-            
+    
           <div
-            class="fd-list__byline-left"
+            class="fd-list__optional"
           >
-            First text item in Byline (Standard text item)
+            
+    
+            <span
+              class="fd-list__optional-text"
+            >
+              Optional inline text
+            </span>
+            
+    
           </div>
           
-            
+    
           <div
-            class="fd-list__byline-right"
+            class="fd-list__object fd-list__object--top-row"
           >
-            Second text item in Byline (Can be semantic (Status) or not)
+            
+    
+            <span
+              class="fd-avatar fd-list__object-avatar fd-avatar--s"
+              style="background-image: url('http://lorempixel.com/400/400/nature/4/')"
+            />
+            
+    
+            <div
+              class="fd-list__object fd-list__object--top-left"
+            >
+              
+    
+              <div
+                class="fd-object-identifier fd-list__object-identifier"
+              >
+                
+      
+                <p
+                  class="fd-object-identifier__title fd-list__object-identifier-title"
+                >
+                  
+    Fitbit Versa Smart Watch, Black Fitbit Versa Smart Watch
+     
+                </p>
+                
+     
+              </div>
+              
+     
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--top-right"
+            >
+              
+    
+              <span
+                class="fd-object-number fd-list__object-number fd-object-number--positive"
+              >
+                
+    
+                <span
+                  class="fd-object-number__text fd-list__object-number-text"
+                >
+                  956.00
+                </span>
+                
+    
+                <span
+                  class="fd-object-number__unit fd-list__object-number-unit"
+                >
+                  Euro
+                </span>
+                
+    
+              </span>
+              
+    
+            </div>
+            
+   
           </div>
           
-        
-        </div>
-        
-    
-      </div>
-      
-  
-    </li>
-    
-  
-    <li
-      class="fd-list__item"
-      role="listitem"
-      tabindex="0"
-    >
-      
-      
-      <div
-        class="fd-list__content"
-      >
-        
-        
-        <div
-          class="fd-list__title"
-        >
-          Text-Only List Item
-        </div>
-        
-        
-        <div
-          class="fd-list__byline"
-        >
-          Byline (description)
-        </div>
-        
-      
-      </div>
-      
-  
-    </li>
-    
-
-  </ul>
-  
-
-
-  <h4>
-    Compact Size
-  </h4>
-  
-
-  <ul
-    class="fd-list fd-list--compact fd-list--byline"
-    role="list"
-  >
-    
-  
-    <li
-      class="fd-list__item"
-      role="listitem"
-      tabindex="0"
-    >
-      
-      
-      <span
-        class="sap-icon--activate fd-list__thumbnail"
-      />
-      
-      
-      <div
-        class="fd-list__content"
-      >
-        
-        
-        <div
-          class="fd-list__title"
-        >
-          Title
-        </div>
-        
-        
-        <div
-          class="fd-list__byline"
-        >
-          Byline (description)
-        </div>
-        
-      
-      </div>
-      
-  
-    </li>
-    
-  
-    <li
-      class="fd-list__item"
-      role="listitem"
-      tabindex="0"
-    >
-      
-      
-      <span
-        class="sap-icon--employee fd-list__thumbnail"
-      />
-      
-      
-      <div
-        class="fd-list__content"
-      >
-        
-        
-        <div
-          class="fd-list__title"
-        >
-          List Item With No Byline
-        </div>
-        
-      
-      </div>
-      
-  
-    </li>
-    
-  
-    <li
-      class="fd-list__item"
-      role="listitem"
-      tabindex="0"
-    >
-      
-    
-      <span
-        aria-label="Image label"
-        class="fd-image--s fd-list__thumbnail"
-        style="background-image: url('http://lorempixel.com/400/400/nature/5/');"
-      />
-      
-    
-      <div
-        class="fd-list__content"
-      >
-        
-        
-        <div
-          class="fd-list__title"
-        >
-          List Item With Two-Column Byline
-        </div>
-        
-        
-        <div
-          class="fd-list__byline fd-list__byline--2-col"
-        >
-          
-            
+   
           <div
-            class="fd-list__byline-left"
+            class="fd-list__object fd-list__object--bottom"
           >
-            First text item in Byline (Standard text item)
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-right"
+              >
+                
+   
+                <span
+                  class="fd-object-status fd-list__object-status fd-object-status--positive"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status__text fd-list__object-status-text"
+                  >
+                    First status
+                  </span>
+                </span>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+   
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+   
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    Second Attribute
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-right"
+              >
+                
+   
+                <span
+                  class="fd-object-status fd-list__object-status fd-object-status--positive"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status__text fd-list__object-status-text"
+                  >
+                    Second status
+                  </span>
+                  
+   
+                </span>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+   
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+   
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    Third Attribute
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
           </div>
           
-            
-          <div
-            class="fd-list__byline-right"
-          >
-            Second text item in Byline (Can be semantic (Status) or not)
-          </div>
-          
-        
+   
         </div>
-        
-    
-      </div>
+         
+  
+      </li>
       
   
-    </li>
-    
-  
-    <li
-      class="fd-list__item"
-      role="listitem"
-      tabindex="0"
-    >
-      
-      
-      <div
-        class="fd-list__content"
+      <li
+        aria-selected="true"
+        class="fd-list__item is-selected"
+        role="option"
+        tabindex="0"
       >
         
-        
+    
         <div
-          class="fd-list__title"
+          class="fd-list__content"
         >
-          Text-Only List Item
+          
+    
+          <div
+            class="fd-list__optional"
+          >
+            
+    
+            <span
+              class="fd-list__optional-text"
+            >
+              Optional inline text
+            </span>
+            
+    
+          </div>
+          
+    
+          <div
+            class="fd-list__object fd-list__object--top-row"
+          >
+            
+    
+            <span
+              aria-label="John Doe"
+              class="fd-avatar fd-list__object-avatar fd-avatar--s fd-avatar--circle fd-avatar--thumbnail"
+              role="presentation"
+              style="background-image: url('http://lorempixel.com/400/400/nature/4/')"
+            />
+            
+    
+            <div
+              class="fd-list__object fd-list__object--top-left"
+            >
+              
+    
+              <div
+                class="fd-object-identifier fd-list__object-identifier"
+              >
+                
+      
+                <p
+                  class="fd-object-identifier__title fd-list__object-identifier-title"
+                >
+                  
+    Fitbit Versa Smart Watch, Black Fitbit Versa Smart Watch
+     
+                </p>
+                
+     
+              </div>
+            </div>
+            
+    
+            <div
+              class="fd-list__object fd-list__object--top-right"
+            >
+              
+    
+              <span
+                class="fd-object-number fd-list__object-number fd-object-number--positive"
+              >
+                
+    
+                <span
+                  class="fd-object-number__text fd-list__object-number-text"
+                >
+                  956.00
+                </span>
+                
+    
+                <span
+                  class="fd-object-number__unit fd-list__object-number-unit"
+                >
+                  Euro
+                </span>
+              </span>
+              
+    
+            </div>
+            
+   
+          </div>
+          
+   
+          <div
+            class="fd-list__object fd-list__object--bottom"
+          >
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-right"
+              >
+                
+   
+                <span
+                  class="fd-object-status fd-list__object-status fd-object-status--positive"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status__text fd-list__object-status-text"
+                  >
+                    First status
+                  </span>
+                </span>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+   
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+   
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    Second Attribute
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-right"
+              >
+                
+   
+                <span
+                  class="fd-object-status fd-list__object-status fd-object-status--positive"
+                >
+                  
+   
+                  <span
+                    class="fd-object-status__text fd-list__object-status-text"
+                  >
+                    Second status
+                  </span>
+                </span>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+            <div
+              class="fd-list__object fd-list__object--bottom-row"
+            >
+              
+   
+              <div
+                class="fd-list__object fd-list__object--bottom-left"
+              >
+                
+   
+                <div
+                  class="fd-list__object-attribute"
+                >
+                  
+   
+                  <span
+                    class="fd-list__object-attribute-text"
+                  >
+                    Third Attribute
+                  </span>
+                  
+   
+                </div>
+                
+   
+              </div>
+              
+   
+            </div>
+            
+   
+          </div>
+          
+   
         </div>
         
-        
-        <div
-          class="fd-list__byline"
-        >
-          Byline (description)
-        </div>
-        
-      
-      </div>
-      
   
-    </li>
+      </li>
+      
+
+    </ul>
     
 
-  </ul>
+  </div>
   
 
 </section>
