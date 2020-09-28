@@ -2011,7 +2011,7 @@ exports[`Storyshots Components/List/Object Object 1`] = `
           <span
             class="fd-list__optional-text"
           >
-            Optional inline text
+            Optional inline text very very very long
           </span>
           
      

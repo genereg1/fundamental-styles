@@ -31,7 +31,7 @@ export const object = () => `
   <li role="option" tabindex="0" class="fd-list__item">
   <div class="fd-list__content">
      <div class="fd-list__optional">
-     <span class="fd-list__optional-text">Optional inline text</span>
+     <span class="fd-list__optional-text">Optional inline text very very very long</span>
      </div>
      <div class="fd-list__object fd-list__object--top-row">
      <span class="fd-avatar fd-avatar--s fd-list__object-avatar" style="background-image: url('http://lorempixel.com/400/400/nature/4/')"></span>

@@ -13,14 +13,14 @@
     }
 
     .#{$block}__optional {
-      width: 100%;
+      display: inline-flex;
       padding-bottom: $fd-list-object-with-value-half;
+      width: 50%;
 
       &-text {
         @include fd-reset();
         @include fd-ellipsis();
 
-        width: 50%;
         color: $fd-list-object-font-color;
       }
     }
@@ -39,6 +39,7 @@
 
       &--top-left {
         width: 60%;
+        flex: 1;
 
         @include fd-rtl() {
           text-align: $fd-list-object-align-right;
@@ -71,6 +72,8 @@
       }
 
       &--bottom-left {
+        @include fd-ellipsis();
+
         text-align: $fd-list-object-align-left;
         padding:
           $fd-list-object-with-padding-value-half
@@ -163,6 +166,7 @@
     .#{$block}__object-status {
       @include fd-ellipsis();
 
+      display: inline-block;
       text-align: $fd-list-object-align-right;
       margin-right: $fd-list-object-with-value-zero;
       text-shadow: $fd-list-object-with-no-text-shadow;
@@ -181,6 +185,7 @@
       @include fd-reset();
       @include fd-ellipsis();
 
+      width: 50%;
       vertical-align: $fd-list-object-with-vertical-align-bottom;
 
       &-text {
